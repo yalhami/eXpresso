@@ -1,0 +1,28 @@
+body {
+		
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+#content {
+	width: 606px;
+	
+	padding: 5px;
+	background:#eee;
+	border: 1px solid #CCC;
+}
+p {
+	margin: 0;	
+	padding: 7px 0;
+}
+
+.clear {
+	clear: both;
+	line-height: 1px;
+	font-size: 1px;
+}
+
+a { 
+	outline-color: #888;	
+}

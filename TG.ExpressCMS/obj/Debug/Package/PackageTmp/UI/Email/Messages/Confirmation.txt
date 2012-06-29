@@ -1,0 +1,7 @@
+Dear #Name#,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp; Welcome to our newsletter system, this E-Mail is to confirm your subscribtion to our site, to confirm this please click the link below<br />
+<br />
+#Link#<br />
+<br />
+Regards.

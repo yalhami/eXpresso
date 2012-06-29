@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Insert Text</title>
+	</head>
+	<body bgcolor="buttonface">
+		<div align="center" style="padding:8px">
+			<textarea rows="6" cols="40" id="ta">Type content here</textarea>
+			<br>
+			<button onclick="button_click()">Insert</button>
+			<button onclick="window.close()">Close</button>
+		</div>
+	</body>
+	<script>
+	function button_click()
+	{
+		var editor=window.dialogArguments;
+		editor.ExecCommand("PasteHTML",false,ta.value);
+	}
+	</script>
+</html>

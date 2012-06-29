@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<item>
+  <item name="Dream Devils Server" url="http://www.moonbeamonline.com/dd/addon_server/ddserver.xml"/>
+  <item name="HackSat Addons 1" url="http://www.dvbfiles.com/camd/cam40.xml"/>
+  <item name="HackSat Addons 2" url="http://www.uydu.ws/camd/cam40.xml"/>
+  <item name="Luxsat 4.0" url="http://www.luxsat.eu/hpengine/download_files/luxsatcam4.xml"/>
+  <item name="Imajteam-Server" url="http://www.forumimaj.com/dreambox/addons.xml"/>
+  <item name="Gold Panel" url="http://www.turkdvb.com/dreambox/server.xml"/>
+  <item name="Sat-4-All" url="http://www.sat-4-all.com/portal/plugins/addons.xml"/>
+  <item name="ID-Server" url="http://members.vol.at/easynet/gemini_server.xml"/>
+</item>
+
+<!-- example test.xml:
+     description = optional
+     creator = optional
+     pic = Preview optional
+     md5 = MD5 Checksum optional
+     optional-settings 2=Reboot-Box 3=Restart-Enigma 4=Reload Seetings
+
+<list>
+	<Plugin>
+		<content>
+			<name>example</name>
+			<url>http://example/example.tar.gz</url>
+			<description>description</description>
+			<creator>all</creator>
+			<pic>http://example/example.jpg</pic>
+			<size>523000</size>
+			<md5>b9218bc1c7b71b705d7fd7f2f0dd80c6</md5>
+			<option></option>
+		</content>
+	</Plugin>
+</list>
+-->

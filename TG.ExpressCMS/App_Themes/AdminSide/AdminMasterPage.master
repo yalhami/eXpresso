@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs"
+    Inherits="TG.ExpressCMS.AdminMasterPage" %>
+
+<%@ Register Src="../UI/Security/LoggedInUserInfo_UC.ascx" TagName="LoggedInUserInfo_UC"
+    TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CBS Content ment System - Mushtaraka</title>
+    <script src="../JS/General.js" type="text/javascript"></script>
+    <link href="../App_Themes/AdminSide/CMS-Style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../App_Themes/AdminSide/images/favicon.gif" type="image/gif" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server">
+    </asp:ScriptManager>
+    <asp:UpdateProgress ID="UpdateProgressAnimation" runat="server" DisplayAfter="0">
+        <ProgressTemplate>
+            <div class="loadingPanel">
+                <img src="../App_Themes/AdminSide2/Images/119(2).gif" />
+                <br />
+                <div align="center">
+                    <strong>Loading...</strong>
+                </div>
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <div class="Header">
+        <div class="HeaderTopContainer">
+            <div class="CBSLogo">
+                <img src="../App_Themes/AdminSide/images/CBS-Logo.png" /></div>
+            <div class="ClientLogo">
+                <img src="../App_Themes/AdminSide/images/Client-Logo.png" /></div>
+        </div>
+        <div class="HeaderBottomContainer">
+            <div class="CMSTitle">
+                <img src="../App_Themes/AdminSide/images/CMSTitle.jpg" /></div>
+            <div style="float: right;">
+                <uc1:LoggedInUserInfo_UC ID="LoggedInUserInfo_UC1" style="margin: 0px;" runat="server" />
+            </div>
+        </div>
+    </div>
+    <div class="Navigation">
+        <div class="NavTop">
+            <div class="NavTopL">
+            </div>
+            <div class="NavTopR">
+            </div>
+        </div>
+        <div class="NavBody">
+            <div>
+                <asp:Menu ID="Menu1" runat="server" Width="100%" DataSourceID="XmlDataSource1" MaximumDynamicDisplayLevels="4"
+                    StaticDisplayLevels="1" DynamicHorizontalOffset="1" DynamicVerticalOffset="1">
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicHoverStyle BackColor="#990000" Font-Bold="False" ForeColor="White" />
+                    <DynamicMenuStyle BackColor="#FFFBD6" />
+                    <StaticSelectedStyle BackColor="#FFCC66" />
+                    <DynamicSelectedStyle BackColor="#FFCC66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DataBindings>
+                        <asp:MenuItemBinding DataMember="Menu" TextField="text" ValueField="text" NavigateUrlField="url" />
+                        <asp:MenuItemBinding DataMember="SubMenu" NavigateUrlField="url" TextField="text"
+                            ValueField="text" />
+                    </DataBindings>
+                    <StaticHoverStyle BackColor="#990000" Font-Bold="False" ForeColor="White" />
+                </asp:Menu>
+                <asp:XmlDataSource ID="XmlDataSource1" XPath="Home/Menu" runat="server" >
+                </asp:XmlDataSource>
+            </div>
+        </div>
+        <div class="NavBottom">
+            <div class="NavBottomL">
+            </div>
+            <div class="NavBottomR">
+            </div>
+        </div>
+    </div>
+    <div class="Content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="Footer">
+        <div class="Copyright">
+            Copyright 2011 Mushtaraka. All rights reserved.</div>
+    </div>
+    </form>
+</body>
+</html>

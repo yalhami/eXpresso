@@ -1,0 +1,53 @@
+<settings>
+  <General_Properties>
+    <direction value="horizontal"/>
+    <width value="850"/>
+    <height value="64"/>
+    <spacing value="25"/>
+    <thumbWidth value="125"/>
+    <thumbHeight value="56"/>
+    <backgroundColor value="0"/>
+    <backgroundAlpha value="0"/>
+    <offset value="5"/>
+    <preloader value="assets/redstripes.swf"/>
+    <assets value="images.xml"/>
+    <showAbout value="false"/>
+  </General_Properties>
+  <Expand_Properties>
+    <direction value="center"/>
+    <percent value="25"/>
+    <func value="Back"/>
+    <method value="easeOut"/>
+    <duration value="0.6"/>
+  </Expand_Properties>
+  <Roll_Over_Properties>
+    <rollOverBehaviour value="smooth"/>
+    <brightnessOver value="0"/>
+    <brightnessOut value="0"/>
+    <brightnessSpeed value="0"/>
+  </Roll_Over_Properties>
+  <Frame_Properties>
+    <color value="0xffffff"/>
+    <width value="0"/>
+    <alpha value="0"/>
+  </Frame_Properties>
+  <Reflection_Properties>
+    <useReflection value="true"/>
+    <reflectionDistance value="0"/>
+    <reflectionAlpha value="0"/>
+    <reflectionSpread value="0"/>
+  </Reflection_Properties>
+  <Scroll_Properties>
+    <scrollMode value="infinite"/>
+    <scrollOnRollOver value="both"/>
+    <onRollOverSpeed value="0"/>
+    <onRollOutSpeed value="2"/>
+    <stoppingSpeed value="10"/>
+    <stopOnRollOver value="false"/>
+    <inverseScrolling value="none"/>
+
+  </Scroll_Properties>
+  <Tooltip_Properties>
+
+  </Tooltip_Properties>
+</settings>

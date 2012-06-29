@@ -1,0 +1,9 @@
+<slideshow>
+  <photo image="../upload/files/gallery/8a3d145d-59f6-4f3e-aff1-c459331c1dc3.jpg" bigimage="../upload/files/gallery/8a3d145d-59f6-4f3e-aff1-c459331c1dc3.jpg" target="_blank" lightboxinfo="Caption 1 goes here" url="" />
+  <photo image="../upload/files/gallery/1153b86a-01f2-41f1-a7df-df47280f77b1.jpg" bigimage="../upload/files/gallery/1153b86a-01f2-41f1-a7df-df47280f77b1.jpg" target="_blank" lightboxinfo="Caption 2 demo" url="" />
+  <photo image="../upload/files/gallery/80440bde-f4de-43c0-b978-48b45b006fbc.jpg" bigimage="../upload/files/gallery/80440bde-f4de-43c0-b978-48b45b006fbc.jpg" target="_blank" lightboxinfo="Caption 3" url="" />
+  <photo image="../upload/files/gallery/d8d41d73-e395-4c4f-9dd9-fbba7ad4ca96.jpg" bigimage="../upload/files/gallery/d8d41d73-e395-4c4f-9dd9-fbba7ad4ca96.jpg" target="_blank" lightboxinfo="Caption 4" url="" />
+  <photo image="../upload/files/gallery/4f6e2249-8e5b-4866-ab58-2e24a6eaecc2.jpg" bigimage="../upload/files/gallery/4f6e2249-8e5b-4866-ab58-2e24a6eaecc2.jpg" target="_blank" lightboxinfo="Caption 5" url="" />
+  <photo image="../upload/files/gallery/fa51d2f4-3b81-40c2-929e-228097f73eb2.jpg" bigimage="../upload/files/gallery/fa51d2f4-3b81-40c2-929e-228097f73eb2.jpg" target="_blank" lightboxinfo="test caption 6" url="" />
+  <photo image="../upload/files/gallery/2b1e9e66-f6f7-4420-8498-9abe898491fd.jpg" bigimage="../upload/files/gallery/2b1e9e66-f6f7-4420-8498-9abe898491fd.jpg" target="_blank" lightboxinfo="Caption 7" url="http://yahoo.com" />
+</slideshow>

@@ -1,0 +1,3 @@
+<Settings>
+  <Setting Host="mail.fattoushclinic.com" Port="26" SenderEmail="info@fattoushclnic.com" SenderName="عيادة فتوووش" EnableSSL="False" UseCredential="True" Password="q9DdceOi/aI=" Username="info@fattoushclinic.com" />
+</Settings>

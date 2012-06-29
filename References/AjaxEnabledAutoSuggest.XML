@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AjaxEnabledAutoSuggest</name>
+    </assembly>
+    <members>
+        <member name="T:AutoSuggest.AutoSuggestTextBox">
+            <summary>
+            TextBox control that automatically suggests matching items when the user types.
+            </summary>
+        </member>
+        <member name="T:AutoSuggest.AutoSuggestListBase">
+            <summary>
+            Base control for a data bound list with Ajax Output properties.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListBase.Items">
+            <summary>
+            Gets the collection of items in the list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListBase.ItemDelimiter">
+            <summary>
+            Gets or sets the character that delimits entries in the AJAX output.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListBase.DataValueField">
+            <summary>
+            Gets or sets the field in the data source which provides the item value.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListBase.DataTextFormatString">
+            <summary>
+            Gets or sets the formatting applied to the text field. For example, {0:d}.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListBase.DataTextField">
+            <summary>
+            Gets or sets the field in the data source which provides the item text.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListBase.TextValueDelimiter">
+            <summary>
+            Gets or sets the character that delimits text and values in the AJAX output.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.AjaxUrl">
+            <summary>
+            Gets or sets the Url to retrieve the suggestions from.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.Parameters">
+            <summary>
+            Gets or sets the parameters to pass to the Ajax page querystring.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.Text">
+            <summary>
+            Gets or sets the text value for the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.SelectedText">
+            <summary>
+            Gets or sets the selected text for the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.SelectedValue">
+            <summary>
+            Gets or sets the selected value for the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.SelectedIndex">
+            <summary>
+            Gets or sets the selected index for the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ScriptPath">
+            <summary>
+            Gets or sets the path to the autosuggest javascript file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ClientItemSelectedCallback">
+            <summary>
+            Gets or sets the client javascript callback function to execute when the user selects an item from the suggestion list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.DownImagePath">
+            <summary>
+            Gets or sets the path to the down arrow image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.DownHoverImagePath">
+            <summary>
+            Gets or sets the path to the down arrow hover image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.UpImagePath">
+            <summary>
+            Gets or sets the path to the up arrow image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.UpHoverImagePath">
+            <summary>
+            Gets or sets the path to the up arrow hover image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.DropDownImagePath">
+            <summary>
+            Gets or sets the path to the drop-down image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.DropDownHoverImagePath">
+            <summary>
+            Gets or sets the path to the drop-down hover image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.DropDownPressedImagePath">
+            <summary>
+            Gets or sets the path to the drop-down pressed image file used by the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.MultiSelectDelimiter1">
+            <summary>
+            Gets or sets the first delimiter for multiple autocomplete entries. Set both to blank for single autocomplete.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.MultiSelectDelimiter2">
+            <summary>
+            Gets or sets the second delimiter for multiple autocomplete entries. Set both to blank for single autocomplete.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.TimeOut">
+            <summary>
+            Gets or sets the autocomplete timeout, in milliseconds (0: autocomplete never times out).
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ResponseTime">
+            <summary>
+            Gets or sets the time, in milliseconds, between the last char typed and the actual query.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.EntryLimit">
+            <summary>
+            Gets or sets the number of entries autocomplete will show at a time.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.StartCheck">
+            <summary>
+            Gets or sets the number of characters needed to be typed before suggestions are shown (effective if > 1).
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.LimitStart">
+            <summary>
+            Gets or sets a value that indicates whether the autocomplete should be limited to the beginning of keyword.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.MatchFirst">
+            <summary>
+            ذ
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.RestrictTyping">
+            <summary>
+            Gets or sets a value that indicates whether the control should restrict to existing members of array.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.FullRefresh">
+            <summary>
+            Gets or sets a value that indicates whether the script should re-send the AJAX request after each typed character.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.UseIFrame">
+            <summary>
+            Gets or sets a value that indicates whether the control should use an IFrame element to fix suggestion list positioning (MS IE only).
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.UseScroll">
+            <summary>
+            Gets or sets a value that indicates whether the control should use a scroll bar (true) or a up/down arrow-buttons (false).
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.UseMouse">
+            <summary>
+            Gets or sets a value that indicates whether mouse support should be enabled for the control.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.NoDefault">
+            <summary>
+            Gets or sets a value that indicates whether the control should omit selecting the first item in a suggestion list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.UseDropDownButton">
+            <summary>
+            Gets or sets a value that indicates whether the control should display a drop-down button. Changing this property will automatically change the FillVisible, FilterSuggestions, and ReadOnly properties for the control to behave like a drop-down list or a text box but the properties can also be changed independently after changing this property to mix behaviors.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.FilterSuggestions">
+            <summary>
+            Gets or sets a value that indicates whether the suggestions are filtered based on the value input.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ReadOnly">
+            <summary>
+            Gets or sets a value that indicates whether the text input is to be read-only but still allow suggestion selection.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.FillVisibile">
+            <summary>
+            Gets or sets a value that indicates whether the suggestion list is to be visible while the script is filling the list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ItemBackColor">
+            <summary>
+            Gets or sets the background color for the suggestion list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ArrowBackColor">
+            <summary>
+            Gets or sets the background color for the arrow rows (used if UseScroll is false).
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ItemForeColor">
+            <summary>
+            Gets or sets the text color for the non-selected suggestions.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.SelectedItemForeColor">
+            <summary>
+            Gets or sets the text color for the selected suggestion.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.SelectedItemBackColor">
+            <summary>
+            Gets or sets the background color for the selected item in the suggestion list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ItemFontNames">
+            <summary>
+            Gets or sets the font(s) of suggestion items.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestTextBox.ItemFontSize">
+            <summary>
+            Gets or sets the font size of suggestion items.
+            </summary>
+        </member>
+        <member name="T:AutoSuggest.AutoSuggestListPage">
+            <summary>
+            Base page for outputting lists for autosuggest controls. Requires a linked aspx file with an AutoSuggestList control added with ID of AutoSuggestList (Included in template).
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.TextValueDelimiter">
+            <summary>
+            Gets or sets the character that delimits text and values in the AJAX output.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.ItemDelimiter">
+            <summary>
+            Gets or sets the character that delimits entries in the AJAX output.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.Items">
+            <summary>
+            Gets the collection of items in the list.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.DataSourceID">
+            <summary>
+            Gets or sets the control ID of an IDataSource that will be used as the data source.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.DataMember">
+            <summary>
+            Gets or sets the table or view used for binding against.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.DataTextField">
+            <summary>
+            Gets or sets the field in the data source which provides the item text.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.DataTextFormatString">
+            <summary>
+            Gets or sets the formatting applied to the text field. For example, {0:d}.
+            </summary>
+        </member>
+        <member name="P:AutoSuggest.AutoSuggestListPage.DataValueField">
+            <summary>
+            Gets or sets the field in the data source which provides the item value.
+            </summary>
+        </member>
+        <member name="T:AutoSuggest.AutoSuggestList">
+            <summary>
+            Control for configuring an AutoSuggestListPage in the designer.
+            </summary>
+        </member>
+    </members>
+</doc>

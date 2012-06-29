@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://localhost:4444/Services1" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="07/24/2011 22:05:15" />
+    <file relUrl="bin/TG.ExpressCMS.Services.pdb" publishTime="07/24/2011 21:49:01" />
+    <file relUrl="bin/Telerik.Web.UI.dll" publishTime="04/14/2010 11:53:20" />
+    <file relUrl="Services/EmailSender.asmx" publishTime="06/23/2011 00:06:41" />
+    <file relUrl="bin/TG.ExpressCMS.Configuration.pdb" publishTime="07/24/2011 21:48:58" />
+    <file relUrl="bin/TG.ExpressCMS.Configuration.dll" publishTime="07/24/2011 21:48:58" />
+    <file relUrl="Services/RSSUpdater.asmx" publishTime="06/23/2011 00:06:41" />
+    <file relUrl="bin/TG.ExpressCMS.Utilities.dll" publishTime="07/24/2011 21:49:00" />
+    <file relUrl="bin/TG.ExpressCMS.DataLayer.dll" publishTime="07/24/2011 21:48:59" />
+    <file relUrl="bin/TG.ExpressCMS.Services.dll" publishTime="07/24/2011 21:49:01" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="06/23/2011 00:06:07" />
+    <file relUrl="bin/TG.ExpressCMS.DataLayer.Enums.pdb" publishTime="07/24/2011 21:48:57" />
+    <file relUrl="bin/TG.ExpressCMS.DataLayer.pdb" publishTime="07/24/2011 21:48:59" />
+    <file relUrl="bin/TG.ExpressCMS.DataLayer.Enums.dll" publishTime="07/24/2011 21:48:57" />
+    <file relUrl="bin/TG.ExpressCMS.Utilities.pdb" publishTime="07/24/2011 21:49:00" />
+    <file relUrl="Default.aspx" publishTime="06/23/2011 00:06:07" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="06/23/2011 00:06:07" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="06/23/2011 00:06:07" />
+  </publishProfile>
+</publishData>

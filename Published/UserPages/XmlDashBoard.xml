@@ -1,0 +1,15 @@
+﻿<?xml version='1.0'?>
+<!-- This file represents a fragment of Product 
+      store inventory database -->
+<ICons>
+  
+
+  <ICon Image="../App_Themes/AdminSide/images/diagram-02.png" Text="Articles" Url="frmManageNews.aspx"></ICon>
+  <ICon Image="../App_Themes/AdminSide/images/menuk-mdk.png" Text="Menus" Url="frmManageMenus.aspx"></ICon>
+  <ICon Image="../App_Themes/AdminSide/images/people.png" Text="Users" Url="frmManagerUsers.aspx"></ICon>
+
+
+
+  <ICon Image="../App_Themes/AdminSide/images/folder_black_HTML.png" Text="HTML" Url="frmManageHtml.aspx"></ICon>
+  
+</ICons>

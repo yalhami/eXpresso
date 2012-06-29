@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" CodeBehind="UserSide.master.cs"
+    Inherits="TG.ExpressCMS.UserPages.UserSide" %>
+
+<%@ Register Src="../UI/Menus/MenuViewerxsl_UC.ascx" TagName="MenuViewerxsl_UC" TagPrefix="uc130" %>
+<%@ Register Src="../UI/Html/HtmlViewer_UC.ascx" TagName="HtmlViewer_UC" TagPrefix="uc7" %>
+<%@ Register Src="../UI/News/NewsViewer_UC.ascx" TagName="NewsViewer_UC" TagPrefix="uc16" %>
+<%@ Register Src="../UI/Search/Search_UC.ascx" TagName="Search_UC" TagPrefix="uc1" %>
+
+<%@ Register src="../UI/Custums/Sawtyyat/VideosViewerXsl_UC.ascx" tagname="VideosViewerXsl_UC" tagprefix="uc5" %>
+<%@ Register Src="../UI/Contact/ShortCutNewsletter_UC.ascx" TagName="ShortCutNewsletter_UC"
+    TagPrefix="uc3" %>
+<%@ Register Src="../UI/Banner/BannerUserSide_UC.ascx" TagName="BannerUserSide_UC"
+    TagPrefix="uc90" %>
+<%@ Register Src="../UI/Custums/RandomImages/HeaderImageReader_UCascx.ascx" TagName="HeaderImageReader_UCascx"
+    TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>
+        <%=GetPageTitle() %>
+    </title>
+    <%-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />--%>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="JavaScript" name="vs_defaultClientScript" />
+
+    <script type="text/javascript"> 
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i  ) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i  )
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j  ].src=a[i];}}
+}
+ 
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p 1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i  ) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i  ) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+ 
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i =3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j  ]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i 2];}
+}
+//-->
+    </script>
+
+    <script type="text/javascript">
+document.body.onload =  " And_This();";
+"MM_preloadImages('../../../upload/files/Service-OTCAr-On.png','../../../upload/files/Service-eTradeAr-On.png','../../../upload/files/Service-ReseachAr-On.png','../../../upload/files/Service-IslamicAr-On.png','../../../upload/files/Service-IndividualAr-On.png','../../../upload/files/Service-InstitutionalAr-On.png','../../../upload/files/Service-BORSATAr-On.png')">
+    </script>
+
+    <script src="../JS/autosuggest.js" type="text/javascript"></script>
+
+    <link href="../../UI/CSS/CSSFiles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../App_Themes/AdminSide/images/favicon.gif" type="image/gif" />
+
+    <script src="../JS/General.js" type="text/javascript"></script>
+
+    <script src="../JS/Forum.js" type="text/javascript"></script>
+
+    <link href="../App_Themes/UserSides/Rating.css" rel="stylesheet" type="text/css" />
+
+    <script src="../JS/Event.js" type="text/javascript"></script>
+
+    <link href="../../UI/CSS/CSSFiles/sub.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--Header-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29726001-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+</head>
+<body>
+    <%--#End_Region#--%>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server" EnablePageMethods="true" LoadScriptsBeforeUI="true"
+        EnablePartialRendering="true" EnableScriptGlobalization="true" EnableScriptLocalization="true"
+        ScriptMode="Release">
+    </asp:ScriptManager>
+    <!--Body-->
+    <div class="container">
+        <div class="header">
+            <%-- <a href="default.aspx">
+                
+                    <img src="../upload/files/logo.png" alt="Home Page" border="0" width="110" height="120" /></a>--%>
+            <div class="Logo">
+                <uc7:HtmlViewer_UC runat="server" HashName="logo" /></div>
+            <div class="MenuContainer">
+                <uc7:HtmlViewer_UC runat="server" HashName="menu" /></div>
+            <div class="MenuAdvanced">
+                <div class="A1">
+                    <uc7:HtmlViewer_UC runat="server" HashName="a1" /></div>
+                <div class="A2">
+                    <div class="HeaderSearchField">
+                        <uc1:Search_UC ID="Search_UC1" runat="server" />
+                    </div>
+                </div>
+                <div class="A3">
+                    <a href="AlramzApplication.aspx">
+                        <img src="../../../upload/files/HeaderButton-Register.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    <div class="content">
+        <div class="TV-Top">
+        </div>
+        <div class="TV-Center">
+            <div class="ContentArea">
+                <div class="LeftSide">
+                    <div class="LeftContent">
+                        <uc7:HtmlViewer_UC runat="server" HashName="leftch" />
+                        <uc16:NewsViewer_UC CategoryID="48" XSLID="7" Count="3" runat="server" ID="NewsViewer_UC2" />
+                    </div>
+                     <div class="LeftContent2">
+                        <uc16:NewsViewer_UC runat="server" XSLID="21" CategoryID="58" />
+                          <%--<uc5:VideosViewerXsl_UC ID="VideosViewerXsl_UC1" runat="server" XSLID="17" CategoryID="57" />--%>
+                        </div>
+                </div>
+                <div class="RightContent">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <uc7:HtmlViewer_UC runat="server" HashName="Tickers" /></div>
+        <div class="TV-Bottom">
+        </div>
+    </div>
+    <div class="FooterContainer">
+        <uc7:HtmlViewer_UC runat="server" HashName="ftr" />
+        <uc130:MenuViewerxsl_UC runat="server" CategoryID="50" xslid="8" />
+    </div>
+    </div>
+    </form>
+</body>
+</html>

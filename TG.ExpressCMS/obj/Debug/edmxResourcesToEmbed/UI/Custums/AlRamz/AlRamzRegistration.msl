@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="eXMNouhModelStoreContainer" CdmEntityContainer="eXMNouhEntities">
+    <FunctionImportMapping FunctionImportName="AlRamzRegistrationInset" FunctionName="eXMNouhModel.Store.AlRamzRegistrationInset" />
+    <EntitySetMapping Name="AlramzRegistration">
+      <EntityTypeMapping TypeName="eXMNouhModel.AlramzRegistration">
+        <MappingFragment StoreEntitySet="AlramzRegistration">
+          <ScalarProperty Name="Upload_all" ColumnName="Upload_all" />
+          <ScalarProperty Name="Upload_wakaleh" ColumnName="Upload_wakaleh" />
+          <ScalarProperty Name="Upload_Summary" ColumnName="Upload_Summary" />
+          <ScalarProperty Name="Upload_Identity" ColumnName="Upload_Identity" />
+          <ScalarProperty Name="Upload_passportnumber" ColumnName="Upload_passportnumber" />
+          <ScalarProperty Name="Upload_AccountApp" ColumnName="Upload_AccountApp" />
+          <ScalarProperty Name="RelatedEmp_description" ColumnName="RelatedEmp_description" />
+          <ScalarProperty Name="RelatedEmp_CompanyOwner" ColumnName="RelatedEmp_CompanyOwner" />
+          <ScalarProperty Name="RelatedEmp_OwnerAccount" ColumnName="RelatedEmp_OwnerAccount" />
+          <ScalarProperty Name="RelatedEmp_Type" ColumnName="RelatedEmp_Type" />
+          <ScalarProperty Name="Mushtarakah_Email" ColumnName="Mushtarakah_Email" />
+          <ScalarProperty Name="Mushtarakah_POBox" ColumnName="Mushtarakah_POBox" />
+          <ScalarProperty Name="Mushtarakah_ResidencyPlace" ColumnName="Mushtarakah_ResidencyPlace" />
+          <ScalarProperty Name="Mushtarakah_EmploymentNumber" ColumnName="Mushtarakah_EmploymentNumber" />
+          <ScalarProperty Name="Mushtarakah_Address" ColumnName="Mushtarakah_Address" />
+          <ScalarProperty Name="Mushtarakah_Proffession" ColumnName="Mushtarakah_Proffession" />
+          <ScalarProperty Name="Mushtarakah_WorkAddress" ColumnName="Mushtarakah_WorkAddress" />
+          <ScalarProperty Name="Mushtarakah_yomathleh" ColumnName="Mushtarakah_yomathleh" />
+          <ScalarProperty Name="Mushtarakah_Mobile" ColumnName="Mushtarakah_Mobile" />
+          <ScalarProperty Name="Mushtarakah_Phone" ColumnName="Mushtarakah_Phone" />
+          <ScalarProperty Name="Mushtarakah_BDate" ColumnName="Mushtarakah_BDate" />
+          <ScalarProperty Name="Mushtarakah_PassportNumber" ColumnName="Mushtarakah_PassportNumber" />
+          <ScalarProperty Name="Mushtarakah_Nationality" ColumnName="Mushtarakah_Nationality" />
+          <ScalarProperty Name="Mushtarakah_AuthorityOwner" ColumnName="Mushtarakah_AuthorityOwner" />
+          <ScalarProperty Name="Mushtarakah_AccountOwner" ColumnName="Mushtarakah_AccountOwner" />
+          <ScalarProperty Name="Wakaleh_IssuePlace" ColumnName="Wakaleh_IssuePlace" />
+          <ScalarProperty Name="Wakaleh_IssueDate" ColumnName="Wakaleh_IssueDate" />
+          <ScalarProperty Name="Wakaleh_NO" ColumnName="Wakaleh_NO" />
+          <ScalarProperty Name="Wakaleh_Email" ColumnName="Wakaleh_Email" />
+          <ScalarProperty Name="Wakaleh_POBox" ColumnName="Wakaleh_POBox" />
+          <ScalarProperty Name="Wakaleh_AddressNumber" ColumnName="Wakaleh_AddressNumber" />
+          <ScalarProperty Name="Wakaleh_IdentityNumber" ColumnName="Wakaleh_IdentityNumber" />
+          <ScalarProperty Name="Wakaleh_Address" ColumnName="Wakaleh_Address" />
+          <ScalarProperty Name="Wakaleh_Proffession" ColumnName="Wakaleh_Proffession" />
+          <ScalarProperty Name="Wakaleh_WorkSite" ColumnName="Wakaleh_WorkSite" />
+          <ScalarProperty Name="Wakaleh_Mobile" ColumnName="Wakaleh_Mobile" />
+          <ScalarProperty Name="Wakaleh_Phone" ColumnName="Wakaleh_Phone" />
+          <ScalarProperty Name="Wakaleh_BDate" ColumnName="Wakaleh_BDate" />
+          <ScalarProperty Name="Wakaleh_Passport" ColumnName="Wakaleh_Passport" />
+          <ScalarProperty Name="Wakaleh_Nationality" ColumnName="Wakaleh_Nationality" />
+          <ScalarProperty Name="Wakaleh_Name" ColumnName="Wakaleh_Name" />
+          <ScalarProperty Name="Individual_ResidencePlace" ColumnName="Individual_ResidencePlace" />
+          <ScalarProperty Name="Individual_employmentNumber" ColumnName="Individual_employmentNumber" />
+          <ScalarProperty Name="Individual_WorkAddress" ColumnName="Individual_WorkAddress" />
+          <ScalarProperty Name="Individual_Proffession" ColumnName="Individual_Proffession" />
+          <ScalarProperty Name="Individual_WorkSite" ColumnName="Individual_WorkSite" />
+          <ScalarProperty Name="Individual_Email" ColumnName="Individual_Email" />
+          <ScalarProperty Name="Individual_BOPox" ColumnName="Individual_BOPox" />
+          <ScalarProperty Name="Individual_POBox" ColumnName="Individual_POBox" />
+          <ScalarProperty Name="Individual_Mobile" ColumnName="Individual_Mobile" />
+          <ScalarProperty Name="Individual_Phone" ColumnName="Individual_Phone" />
+          <ScalarProperty Name="Individual_Birthdate" ColumnName="Individual_Birthdate" />
+          <ScalarProperty Name="Individual_Passportnumber" ColumnName="Individual_Passportnumber" />
+          <ScalarProperty Name="Individual_Nationality" ColumnName="Individual_Nationality" />
+          <ScalarProperty Name="Companies_SignatureAuthority_Address" ColumnName="Companies_SignatureAuthority_Address" />
+          <ScalarProperty Name="Companies_SignatureAuthority_PoBox" ColumnName="Companies_SignatureAuthority_PoBox" />
+          <ScalarProperty Name="Companies_SignatureAuthority_fax" ColumnName="Companies_SignatureAuthority_fax" />
+          <ScalarProperty Name="Companies_SignatureAuthority_phone" ColumnName="Companies_SignatureAuthority_phone" />
+          <ScalarProperty Name="Companies_SignatureAuthority_Birthdate" ColumnName="Companies_SignatureAuthority_Birthdate" />
+          <ScalarProperty Name="Companies_SignatureAuthority_passportNumber" ColumnName="Companies_SignatureAuthority_passportNumber" />
+          <ScalarProperty Name="Companies_SignatureAuthority_Nationality" ColumnName="Companies_SignatureAuthority_Nationality" />
+          <ScalarProperty Name="Companies_SignatureAuthority" ColumnName="Companies_SignatureAuthority" />
+          <ScalarProperty Name="Companies_Email" ColumnName="Companies_Email" />
+          <ScalarProperty Name="Companies_Address" ColumnName="Companies_Address" />
+          <ScalarProperty Name="Companies_POBOX" ColumnName="Companies_POBOX" />
+          <ScalarProperty Name="Companies_Fax" ColumnName="Companies_Fax" />
+          <ScalarProperty Name="Companies_Phone" ColumnName="Companies_Phone" />
+          <ScalarProperty Name="Companies_TradeLicenseNumber_ExpiryDate" ColumnName="Companies_TradeLicenseNumber_ExpiryDate" />
+          <ScalarProperty Name="Companies_TradeLicenseNumber_IssueDate" ColumnName="Companies_TradeLicenseNumber_IssueDate" />
+          <ScalarProperty Name="Companies_TradeLicenseNumber" ColumnName="Companies_TradeLicenseNumber" />
+          <ScalarProperty Name="Companies_RoomNumber_ExpiryDate" ColumnName="Companies_RoomNumber_ExpiryDate" />
+          <ScalarProperty Name="Companies_RoomNumber_IssueDate" ColumnName="Companies_RoomNumber_IssueDate" />
+          <ScalarProperty Name="Companies_RoomNumber" ColumnName="Companies_RoomNumber" />
+          <ScalarProperty Name="Companies_Type" ColumnName="Companies_Type" />
+          <ScalarProperty Name="Companies_Nationality" ColumnName="Companies_Nationality" />
+          <ScalarProperty Name="Companies_LegalForm" ColumnName="Companies_LegalForm" />
+          <ScalarProperty Name="Companies_TradeName" ColumnName="Companies_TradeName" />
+          <ScalarProperty Name="AccountType_1" ColumnName="AccountType_1" />
+          <ScalarProperty Name="NumberOnDubai_1" ColumnName="NumberOnDubai_1" />
+          <ScalarProperty Name="NumberOnAbudhabi_1" ColumnName="NumberOnAbudhabi_1" />
+          <ScalarProperty Name="MrsMr_1" ColumnName="MrsMr_1" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserSide.master.cs" Inherits="TG.ExpressCMS.UserPages.UserSide" %>
+
+<%@ Register Src="../UI/Custums/Fattoush/BMICalculator_UC.ascx" TagName="BMICalculator_UC"
+    TagPrefix="uc412" %>
+<%@ Register Src="../UI/Html/HtmlViewer_UC.ascx" TagName="HtmlViewer_UC" TagPrefix="uc17" %>
+<%@ Register Src="../UI/Menus/MenuViewerXsl_UC.ascx" TagName="MenuViewerXsl_UC" TagPrefix="uc13" %>
+<%@ Register Src="../UI/Search/Search_UC.ascx" TagName="Search_UC" TagPrefix="uc98" %>
+<%@ Register Src="../UI/News/NewsViewer_UC.ascx" TagName="NewsViewer_UC" TagPrefix="uc16" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%--#Start_Region#--%>
+<html>
+<head runat="server">
+    <link href="../UI/CSS/CSSFiles/fatoosh.css" rel="stylesheet" type="text/css" />
+    <%--#End_Region#--%>
+    <title>
+        <%=GetPageTitle()%>
+    </title>
+    <%--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />--%>
+    <meta name="title" content="حمية غذائية, اخصائية تغذية,سوسن شطناوي,عيادة فتوش,فتوووش,فتووش, الكويت, زينة حابي, الرياضة, الغذاء الصحي, تمارين رياضية,عالم حواء,اسرار المطبخ,الكولسترول,امرض القلب,تخفيف الوزن,ربط المعده,وصفات ريجيم,ريجيم صحي,ريجيم وتقييم,سعرات حرارية,اضرار التدخين,اهمية الرياضة,الرياضة في حياتنا,الجسم السليم,رشاقة,تنحيف,تسمين,سوسن,طبخ,مطبخ" />
+    <meta name="Description" content="حمية غذائية, اخصائية تغذية,سوسن شطناوي,عيادة فتوش,فتوووش,فتووش, الكويت, زينة حابي, الرياضة, الغذاء الصحي, تمارين رياضية,عالم حواء,اسرار المطبخ,الكولسترول,امرض القلب,تخفيف الوزن,ربط المعده,وصفات ريجيم,ريجيم صحي,ريجيم وتقييم,سعرات حرارية,اضرار التدخين,اهمية الرياضة,الرياضة في حياتنا,الجسم السليم,رشاقة,تنحيف,تسمين,سوسن,طبخ,مطبخ" />
+    <meta name="Keywords" content="حمية غذائية, اخصائية تغذية,سوسن شطناوي,عيادة فتوش,فتوووش,فتووش, الكويت, زينة حابي, الرياضة, الغذاء الصحي, تمارين رياضية,عالم حواء,اسرار المطبخ,الكولسترول,امرض القلب,تخفيف الوزن,ربط المعده,وصفات ريجيم,ريجيم صحي,ريجيم وتقييم,سعرات حرارية,اضرار التدخين,اهمية الرياضة,الرياضة في حياتنا,الجسم السليم,رشاقة,تنحيف,تسمين,سوسن,طبخ,مطبخ" />
+    <div id="fb-root">
+    </div>
+   
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25776151-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="../js/jquery.showcase.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta content="JavaScript" name="vs_defaultClientScript" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server" EnablePageMethods="true" LoadScriptsBeforeUI="true"
+        EnablePartialRendering="true" EnableScriptGlobalization="true" EnableScriptLocalization="true"
+        ScriptMode="Release">
+        <CompositeScript>
+            <Scripts>
+                <asp:ScriptReference Path="~/JS/AjaxLoader.js" />
+                <asp:ScriptReference Path="~/JS/Forum.js" />
+                <asp:ScriptReference Path="~/JS/Event.js" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+    <div class="all">
+        <div class="headerdv">
+            <uc13:menuviewerxsl_uc runat="server" categoryid="29" xslid="1" />
+            <div class="srchdv">
+                <uc98:search_uc runat="server" />
+            </div>
+            <uc17:htmlviewer_uc runat="server" hashname="header" />
+        </div>
+        <uc13:menuviewerxsl_uc runat="server" categoryid="13" xslid="1" />
+        <div class="search">
+            <uc412:bmicalculator_uc id="BMICalculator_UC1" runat="server" />
+            <uc17:htmlviewer_uc runat="server" hashname="hdr-link" />
+            <div style="display: none;">
+                <uc17:htmlviewer_uc runat="server" hashname="search" />
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <uc13:menuviewerxsl_uc runat="server" categoryid="30" xslid="1" />
+            <div class="bottomDownBanner">
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-1981521975883198";
+                    /* MainBottomNew */
+                    google_ad_slot = "9634057119";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+//-->
+                </script>
+                <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Dear #Name#,<br />
+<br />
+&nbsp;&nbsp;&nbsp; Thank you, your E-Mail had been successfully activated.<br />
+<br />
+Regards

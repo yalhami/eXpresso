@@ -1,0 +1,116 @@
+﻿<?xml version='1.0'?>
+<!-- This file represents a fragment of Product 
+      store inventory database -->
+<Home>
+  <Menu ID="1" text="Articles"
+    url="#">
+    <SubMenu text="Items" url="frmManageNews.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=1"/>
+    <SubMenu text="Comments" url="frmReviewComments.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Isalmic Studies"
+    url="#">
+    <SubMenu text="Items" url="frmManageNews.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=7"/>
+    
+  </Menu>
+  <Menu ID="2" text="Menu"
+   url="#">
+    <SubMenu text="Nodes" url="frmManageMenus.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=2"/>
+  </Menu>
+  <Menu ID="3" text="Newsletter"
+   url="#">
+    <SubMenu text="Messages" url="frmManageContactsSubscribtionMessages.aspx"/>
+
+    <SubMenu text="E-Mails" url="frmManageEmails.aspx"/>
+    <SubMenu text="E-Mails Sender" url="frmSendNewsletter.aspx"/>
+    <SubMenu text="History" url="frmReviewEmailQueue.aspx"/>
+  </Menu>
+  <Menu  ID="3" text="Gallery"
+   url="#">
+    <SubMenu text="Gallery" url="frmGalleryAdmin.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=4"/>
+  </Menu>
+  <Menu  ID="3" text="Marquee"
+   url="#">
+    <SubMenu text="Marquee" url="frmMarqueeManager.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=3"/>
+  </Menu>
+  <Menu  ID="3" text="Banner"
+ url="#">
+    <SubMenu text="Banner" url="frmManageBanners.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=10"/>
+  </Menu>
+
+  <Menu  ID="3" text="Contacts"
+   url="#">
+    <SubMenu text="Contacts" url="frmManageContacts.aspx"/>
+    <SubMenu text="Groups" url="frmManageContactsGroups.aspx"/>
+  </Menu>
+  <Menu ID="4" text="HTML" url="#">
+    <SubMenu text="Blocks" url="frmManageHtml.aspx"/>
+  </Menu>
+  <Menu ID="5" text="Inquries"
+  url="#">
+    <SubMenu text="Viewer" url="frmInQuiresViewer.aspx"/>
+    <SubMenu text="Volunteer Requests" url="../AdminCustoms/frmBecomeVolunteerRequests.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Files"
+  url="#">
+    <SubMenu text="Explorer" url="frmFileManager.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Design"
+url="#">
+    <SubMenu text="XSL" url="frmManageXSL.aspx"/>
+    <SubMenu text="CSS" url="frmManageCSSFiles.aspx"/>
+    <SubMenu text="Pages" url="frmPageAdmin.aspx"/>
+    <SubMenu text="Templates" url="frmTemplateManager.aspx"/>
+    <SubMenu text="Templates and Page Editor" url="frmTemplateandPageEditor.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Security"
+url="#">
+    <SubMenu text="Users" url="frmManagerUsers.aspx"/>
+    <SubMenu text="Roles" url="frmManageRoles.aspx"/>
+    <SubMenu text="Users Roles" url="frmUsersRoles.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Careers"
+url="#">
+    <SubMenu text="Administration" url="frmManageCareers.aspx"/>
+    <SubMenu text="Posted Items" url="frmViewPostedCareers.aspx"/>
+  </Menu>
+  <Menu ID="1" text="General Settings"
+url="#">
+    <SubMenu text="Settings" url="frmSettings.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Polls"
+url="#">
+    <SubMenu text="Polls" url="frmManagePolls.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Event"
+url="#">
+    <SubMenu text="Events Locations" url="frmEventLocation.aspx"/>
+    <SubMenu text="Events Administration" url="frmManageEventAdmin.aspx"/>
+
+  </Menu>
+  <Menu ID="1" text="Forum"
+url="#">
+    <SubMenu text="Forum Admin" url="forumAdmin.aspx"/>
+    <SubMenu text="Forum Group" url="forumGroupAdmin.aspx"/>
+    <SubMenu text="Forum Post" url="forumPostAdmin.aspx"/>
+    <SubMenu text="Forum Thread" url="forumThreadAdmin.aspx"/>
+    <SubMenu text="Forum User" url="forumUserAdmin.aspx"/>
+  </Menu>
+  <Menu ID="1" text="Fatawa"
+url="#">
+    <SubMenu text="Fatawa" url="../AdminCustoms/frmAdminFatwa.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=6"/>
+  </Menu>
+
+  <Menu ID="1" text="Sawtyyat And Videos"
+url="#">
+    <SubMenu text="Sawtyyat" url="../AdminCustoms/frmAdminSawtyyat.aspx"/>
+    <SubMenu text="Categories" url="frmManageCategories.aspx?Type=8"/>
+  </Menu>
+
+</Home>

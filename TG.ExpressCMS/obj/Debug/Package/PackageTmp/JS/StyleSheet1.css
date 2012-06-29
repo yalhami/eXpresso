@@ -1,0 +1,199 @@
+﻿.right-c-i {
+}
+#ico-links {
+    display: none;
+}
+#SlideItMoo_outer {
+    display: block;
+    position: relative;
+}
+#SlideItMoo_outer .SlideItMoo_forward, #SlideItMoo_outer .SlideItMoo_back {
+    background: url("Upload/Files/EditorImage/slideitmoo_forward.gif") no-repeat scroll center center transparent;
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+    height: 90px;
+    position: absolute;
+    right: 5px;
+    width: 30px;
+}
+#SlideItMoo_outer .SlideItMoo_back {
+    background: url("Upload/Files/EditorImage/slideitmoo_back.gif") no-repeat scroll center center transparent;
+    left: 5px;
+}
+#SlideItMoo_inner {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#SlideItMoo_items {
+    display: block;
+    position: relative;
+}
+#SlideItMoo_items div.SlideItMoo_element {
+    color: #000000;
+    display: block;
+    float: left;
+    font-size: 11px;
+    position: relative;
+}
+#SlideItMoo_items a {
+    border: 1px solid #D7D7D6;
+    display: block;
+    height: 73px;
+    padding: 3px;
+}
+#SlideItMoo_items a:hover {
+    border: 4px solid #0092DD;
+    padding: 0;
+}
+#SlideItMoo_items a img {
+    border: medium none;
+    height: 73px;
+    width: 132px;
+}
+#SlideItMoo_items a img:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    
+}
+#SlideItMoo_items span {
+    clear: both;
+}
+#SlideItMoo_items td {
+    padding: 0 20px 20px 15px;
+}
+#SlideItMoo_banners_outer {
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+    width: 557px;
+}
+#SlideItMoo_banners_inner {
+    height: 134px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 557px;
+}
+#SlideItMoo_banners_items {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+}
+#SlideItMoo_banners_items a img {
+    border: medium none;
+}
+#SlideItMoo_info_outer {
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 190px;
+    margin: 0 auto;
+    position: relative;
+    width: 557px;
+}
+#SlideItMoo_info_inner {
+    height: 190px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 557px;
+}
+#SlideItMoo_info_items {
+    display: block;
+    position: relative;
+}
+#SlideItMoo_info_items .info_item {
+    background: none repeat scroll 0 0 #E8E8E8;
+    border-right: 5px solid #333333;
+    display: block;
+    float: left;
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    text-align: justify;
+    width: 547px;
+}
+#SlideItMoo_info_items .info_item a img {
+    border: medium none;
+}
+#SlideItMoo_info_items .info_item img {
+    float: left;
+    margin-right: 15px;
+}
+#SlideItMoo_info_items .info_item h1 {
+    background: none repeat scroll 0 0 transparent;
+    color: #006699;
+    margin: 5px 0 10px;
+    text-align: right;
+}
+#lbOverlay {
+    background-color: #000000;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+#lbCenter, #lbBottomContainer {
+    background-color: #FFFFFF;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+}
+.lbLoading {
+    background: url("Upload/Files/EditorImage/loading.gif") no-repeat scroll center center #FFFFFF;
+}
+#lbImage {
+    background-repeat: no-repeat;
+    border: 10px solid #FFFFFF;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#lbPrevLink, #lbNextLink {
+    display: block;
+    outline: medium none;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+#lbPrevLink {
+    left: 0;
+}
+#lbPrevLink:hover {
+    background: url("Upload/Files/EditorImage/prevlabel.gif") no-repeat scroll 0 15% transparent;
+}
+#lbNextLink {
+    right: 0;
+}
+#lbNextLink:hover {
+    background: url("Upload/Files/EditorImage/nextlabel.gif") no-repeat scroll 100% 15% transparent;
+}
+#lbBottom {
+    border-color: #FFFFFF;
+    border-style: none solid solid;
+    border-width: 10px;
+    color: #666666;
+    font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+    font-size: 10px;
+    line-height: 1.4em;
+    text-align: left;
+}
+#lbCloseLink {
+    background: url("Upload/Files/EditorImage/closelabel.gif") no-repeat scroll center center transparent;
+    display: block;
+    float: right;
+    height: 22px;
+    margin: 5px 0;
+    outline: medium none;
+    width: 66px;
+}
+#lbCaption, #lbNumber {
+    margin-right: 71px;
+}
+#lbCaption {
+    font-weight: bold;
+}

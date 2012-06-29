@@ -1,0 +1,3 @@
+<Settings>
+  <Setting Host="relay-hosting.secureserver.net" Port="25" SenderEmail="test@mushtaraka.com.sa" SenderName="test@mushtaraka.com.sa" EnableSSL="False" UseCredential="True" Password="" Username="test@mushtaraka.com.sa" />
+</Settings>

@@ -1,0 +1,136 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserSide.master.cs" Inherits="TG.ExpressCMS.UserPages.UserSide" %>
+
+<%@ Register Src="../../UI/Menus/MenuViewerXsl_UC.ascx" TagName="MenuViewerXsl_UC" TagPrefix="uc44" %>
+<%@ Register Src="../../UI/Menus/MenuViewer_UC.ascx" TagName="MenuViewer_UC" TagPrefix="uc13" %>
+<%@ Register Src="../../UI/Html/HtmlViewer_UC.ascx" TagName="HtmlViewer_UC" TagPrefix="uc7" %>
+<%@ Register Src="../../UI/News/NewsViewer_UC.ascx" TagName="NewsViewer_UC" TagPrefix="uc16" %>
+<%@ Register Src="../../UI/Search/Search_UC.ascx" TagName="Search_UC" TagPrefix="uc1" %>
+<%@ Register Src="../../UI/Contact/ShortCutNewsletter_UC.ascx" TagName="ShortCutNewsletter_UC"
+    TagPrefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <title>
+        <%=GetPageTitle() %></title>
+    <link rel="icon" href="../../App_Themes/AdminSide/images/lll.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link href="../../UI/CSS/CSSFiles/ex.css" rel="stylesheet" type="text/css" />
+    <link href="../../UI/CSS/CSSFiles/MenuMatic-ie6.css" rel="stylesheet" type="text/css" />
+    <link href="../../UI/CSS/CSSFiles/MenuMatic.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server" ScriptMode="Release" EnableScriptLocalization="true"
+        EnableScriptGlobalization="true" EnablePartialRendering="true" LoadScriptsBeforeUI="true"
+        EnablePageMethods="true">
+    </asp:ScriptManager>
+    <div class="header">
+        <div class="content">
+            <!-- Top Menu -->
+            <div class="top_menu">
+                <table>
+                    <tr>
+                        <td>
+                            <uc44:MenuViewerXsl_UC ID="menuviewer14" runat="server" CategoryID="7" XslID="12" />
+                        </td>
+                        <td>
+                            <div class="search">
+                                <uc1:Search_UC ID="Search_UC1" runat="server" />
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- // Top Menu -->
+            <div class="main_menu_pos">
+                <!-- Main Menu -->
+                <div class="main_menu">
+                    <uc44:MenuViewerXsl_UC ID="menuviewer1" runat="server" CategoryID="8" XslID="11" />
+                </div>
+            </div>
+            <a class="logo" href="Default.aspx">
+                <img src="../../Upload/Files/EditorImage/logo.png" width="287" height="159" border="0"
+                    alt="Generations for Peace" /></a>
+        </div>
+    </div>
+    <div class="body subpage">
+        <div class="content">
+            <!-- Larg Box -->
+            <div class="box_big">
+                <div class="head">
+                </div>
+                <div class="content">
+                    <table cellpadding="0" cellspacing="0" border="0" class="tbl_content">
+                        <tr>
+                            <td class="center_channel">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                            <td class="right_channel">
+                                <!-- right channel -->
+                                <a href="#" class="lnk-inst">
+                                    <img style="border: 0px solid;" src="../../Upload/Files/EditorImage/img-institute.png" /></a>
+                                <!-- spliter between any box -->
+                                <div class="split">
+                                </div>
+                                <!-- spliter between any box -->
+                                <!-- Follow box -->
+<div class="follow">
+
+                                <uc7:HtmlViewer_UC ID="HtmlViewer_UC1" runat="server" HashName="follow_us_internal" />
+</div>
+
+                                <!-- // Follow box -->
+                                <!-- spliter between any box -->
+                                <div class="split">
+                                </div>
+                                <!-- spliter between any box -->
+                                <div class="newsletter">
+                                    <h1>
+                                        newsletter</h1>
+                                    <!-- Titel -->
+                                    <a href="RegisterNewsletter.aspx"><a href="RegisterNewsletter.aspx">
+                                        <uc3:ShortCutNewsletter_UC ID="ShortCutNewsletter_UC1" runat="server" />
+                                    </a></a>
+                                </div>
+                                <!-- spliter between any box -->
+                                <div class="split">
+                                </div>
+                                <!-- spliter between any box -->
+                                <!-- banner -->
+                                <div class="banner">
+                                    <!-- make the available3to put link or not -->
+                                    <uc7:HtmlViewer_UC ID="HtmlViewer_UC2" runat="server" HashName="internal_right_bottom_banner" />
+                                </div>
+                                <!-- // banner -->
+                                <!-- // right channel -->
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="foot">
+                </div>
+            </div>
+            <!-- Larg Box -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <!-- footer Box -->
+            <div class="footer_menu">
+                <uc13:MenuViewer_UC ID="MenuViewer_UC1" runat="server" CategoryID="7" />
+            </div>
+            <!-- // footer Box -->
+            <!-- Make the year read from server -->
+            <div class="copyright">
+                &copy; 2011. <b>generations</b>for<b>peace</b>. All Rights Reserved</div>
+        </div>
+    </div>
+    </form>
+    </body>
+</html>

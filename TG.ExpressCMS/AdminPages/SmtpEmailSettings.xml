@@ -1,0 +1,3 @@
+<Settings>
+  <Setting Host="mail.drnouh.com" Port="25" SenderEmail="info@drnouh.com" SenderName="Dr.Mohammed Nouh Website" EnableSSL="False" UseCredential="True" Password="qwertyu123" Username="info@drnouh.com" />
+</Settings>

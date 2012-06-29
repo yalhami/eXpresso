@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eXMNouhModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="eXMNouhEntities">
+    <FunctionImport Name="AlRamzRegistrationInset">
+      <Parameter Name="P_MrsMr_1" Mode="In" Type="String" />
+      <Parameter Name="P_NumberOnAbudhabi_1" Mode="In" Type="String" />
+      <Parameter Name="P_NumberOnDubai_1" Mode="In" Type="String" />
+      <Parameter Name="P_AccountType_1" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_TradeName" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_LegalForm" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_Nationality" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_Type" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_RoomNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_RoomNumber_IssueDate" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_RoomNumber_ExpiryDate" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_TradeLicenseNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_TradeLicenseNumber_IssueDate" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_TradeLicenseNumber_ExpiryDate" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_Phone" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_Fax" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_POBOX" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_Address" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_Email" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_Nationality" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_passportNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_Birthdate" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_phone" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_fax" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_PoBox" Mode="In" Type="String" />
+      <Parameter Name="P_Companies_SignatureAuthority_Address" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Nationality" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Passportnumber" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Birthdate" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Phone" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Mobile" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_POBox" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_BOPox" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Email" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_WorkSite" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_Proffession" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_WorkAddress" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_employmentNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Individual_ResidencePlace" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Name" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Nationality" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Passport" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_BDate" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Phone" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Mobile" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_WorkSite" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Proffession" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Address" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_IdentityNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_AddressNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_POBox" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_Email" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_NO" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_IssueDate" Mode="In" Type="String" />
+      <Parameter Name="P_Wakaleh_IssuePlace" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_AccountOwner" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_AuthorityOwner" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_Nationality" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_PassportNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_BDate" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_Phone" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_Mobile" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_yomathleh" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_WorkAddress" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_Proffession" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_Address" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_EmploymentNumber" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_ResidencyPlace" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_POBox" Mode="In" Type="String" />
+      <Parameter Name="P_Mushtarakah_Email" Mode="In" Type="String" />
+      <Parameter Name="P_RelatedEmp_Type" Mode="In" Type="Int32" />
+      <Parameter Name="P_RelatedEmp_OwnerAccount" Mode="In" Type="String" />
+      <Parameter Name="P_RelatedEmp_CompanyOwner" Mode="In" Type="String" />
+      <Parameter Name="P_RelatedEmp_description" Mode="In" Type="String" />
+      <Parameter Name="P_Upload_AccountApp" Mode="In" Type="String" />
+      <Parameter Name="P_Upload_passportnumber" Mode="In" Type="String" />
+      <Parameter Name="P_Upload_Identity" Mode="In" Type="String" />
+      <Parameter Name="P_Upload_Summary" Mode="In" Type="String" />
+      <Parameter Name="P_Upload_wakaleh" Mode="In" Type="String" />
+      <Parameter Name="P_Upload_all" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="AlramzRegistration" EntityType="eXMNouhModel.AlramzRegistration" />
+  </EntityContainer>
+  <EntityType Name="AlramzRegistration">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" a:StoreGeneratedPattern="Identity" xmlns:a="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="MrsMr_1" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="NumberOnAbudhabi_1" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="NumberOnDubai_1" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="AccountType_1" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_TradeName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_LegalForm" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_Nationality" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_Type" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_RoomNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_RoomNumber_IssueDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_RoomNumber_ExpiryDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_TradeLicenseNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_TradeLicenseNumber_IssueDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_TradeLicenseNumber_ExpiryDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_Phone" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_Fax" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_POBOX" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_Address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_Email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_Nationality" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_passportNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_Birthdate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_phone" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_fax" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_PoBox" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Companies_SignatureAuthority_Address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Nationality" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Passportnumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Birthdate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Phone" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Mobile" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_POBox" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_BOPox" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_WorkSite" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_Proffession" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_WorkAddress" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_employmentNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Individual_ResidencePlace" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Nationality" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Passport" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_BDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Phone" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Mobile" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_WorkSite" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Proffession" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_IdentityNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_AddressNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_POBox" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_Email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_NO" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_IssueDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Wakaleh_IssuePlace" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_AccountOwner" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_AuthorityOwner" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_Nationality" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_PassportNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_BDate" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_Phone" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_Mobile" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_yomathleh" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_WorkAddress" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_Proffession" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_Address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_EmploymentNumber" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_ResidencyPlace" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_POBox" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Mushtarakah_Email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="RelatedEmp_Type" />
+    <Property Type="String" Name="RelatedEmp_OwnerAccount" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RelatedEmp_CompanyOwner" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="RelatedEmp_description" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Upload_AccountApp" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Upload_passportnumber" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Upload_Identity" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Upload_Summary" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Upload_wakaleh" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Upload_all" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

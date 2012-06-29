@@ -1,0 +1,15 @@
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.DataLayer.Enums\bin\Debug\TG.ExpressCMS.DataLayer.Enums.dll
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.DataLayer.Enums\bin\Debug\TG.ExpressCMS.DataLayer.Enums.pdb
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.DataLayer.Enums\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.dll
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.pdb
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.DataLayer.Enums\bin\Debug\TG.ExpressCMS.DataLayer.Enums.dll
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.DataLayer.Enums\bin\Debug\TG.ExpressCMS.DataLayer.Enums.pdb
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.csprojResolveAssemblyReference.cache
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.dll
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.pdb
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.DataLayer.Enums\bin\Debug\TG.ExpressCMS.DataLayer.Enums.dll
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.DataLayer.Enums\bin\Debug\TG.ExpressCMS.DataLayer.Enums.pdb
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.DataLayer.Enums\obj\Debug\ResolveAssemblyReference.cache
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.dll
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.DataLayer.Enums\obj\Debug\TG.ExpressCMS.DataLayer.Enums.pdb

@@ -1,0 +1,73 @@
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 150px;
+	height: 220px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */	
+	float: left;
+}
+.kwicks.vertical  li{
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 5px; /*Set to same as spacing option. */	
+}
+.horizontal li div h3{
+	font-size:11px;
+	color:#6a6a6a;
+	text-align:right;
+	margin:5px 0 0 0;
+}
+.horizontal li:hover div h3
+{
+	color:#8b0e8c;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.horizontal li div p{
+	font-size:12px;
+	color:#6a6a6a;
+	text-align:right;
+	margin:5px 0;
+	line-height:12px;
+	display:block;
+	height:12px;
+	overflow:hidden;
+	
+}
+.horizontal li:hover div p
+{
+	
+	display:block;
+	height:80px;
+	
+	
+}
+
+.horizontal li img{
+height:150px;	
+}
+.horizontal li:hover img{
+width:320px;
+height:150px;
+}
+
+.kwicks.horizontal #kwick_4 {
+	margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
+.kwicks.vertical #kwick_4 {
+	margin-bottom: none; /* cancel margin on last kiwck (if you set a margin above) */
+}

@@ -1,0 +1,53 @@
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.ProcessAllPendingEmail(String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.SendEmail(Int32 mailid, String colIntegers, String scheduledate, String scheduletime, String Hash)System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: SMTP authentication is required.
+   at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at TG.ExpressCMS.Services.EmailSender.ProcessAllPendingEmail(String Hash) in E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS\Services\EmailSender.asmx.cs:line 107

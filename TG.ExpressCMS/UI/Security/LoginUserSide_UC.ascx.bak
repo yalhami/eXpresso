@@ -1,0 +1,60 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="LoginUserSide_UC.ascx.cs"
+    Inherits="TG.ExpressCMS.UI.Security.LoginUserSide_UC" %>
+<script language="javascript" type="text/javascript">
+    function ClearBoxs(txt) {
+        txt.value = "";
+    }
+
+    function FillBoxs(txt, strVal) {
+        if (txt.value == "") {
+            txt.value = strVal;
+        }
+    }
+
+</script>
+<div class="ContentTitle">
+    <asp:Label ID="Label1" runat="server" Text='<%$Resources:ExpressCMS, lblLoginTitle %>'></asp:Label>
+</div>
+<asp:UpdatePanel ID="upnlControls" runat="server">
+    <ContentTemplate>
+        <asp:PlaceHolder ID="plcControls" runat="server">
+            <div id="dvMessages" runat="server">
+            </div>
+            <table width="500" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <asp:Label ID="lblUserName" runat="server" Text='<%$Resources:ExpressCMS, lblUserName %>'></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtUsername" Width="200" CssClass="SubscribeFieldStyle" runat="server"
+                            MaxLength="50"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblPassword" runat="server" Text='<%$Resources:ExpressCMS, lblPassword %>'></asp:Label>
+                    </td>
+                    <td>
+                        <br />
+                        <asp:TextBox ID="txtPassword" Width="200" runat="server" MaxLength="50" CssClass="SubscribeFieldStyle"
+                            TextMode="Password"></asp:TextBox>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <asp:Button ID="btnSaveUpdate" runat="server" ValidationGroup="Login" CssClass="btnLoginUsers" />
+                <asp:HyperLink NavigateUrl="~/UserPages/ForumRegistration.aspx" runat="server" ID="hypRegister"
+                    Text='<%$Resources:ExpressCMS, hypRegister %>'></asp:HyperLink>
+            </div>
+            <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="txtPassword"
+                ValidationGroup="Login" ErrorMessage='<%$Resources:ExpressCMS, lblPassword %>'
+                Text="*" Style="display: none;"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="txtUsername"
+                ValidationGroup="Login" Text="*" ErrorMessage='<%$Resources:ExpressCMS, lblUserName %>'
+                Style="display: none;"></asp:RequiredFieldValidator>
+            <asp:ValidationSummary ID="valsummaryContact" runat="server" ValidationGroup="Login"
+                HeaderText='<%$Resources:ExpressCMS, valSummHeader %>' DisplayMode="BulletList"
+                ShowMessageBox="true" ShowSummary="false" />
+        </asp:PlaceHolder>
+    </ContentTemplate>
+</asp:UpdatePanel>

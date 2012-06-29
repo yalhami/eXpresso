@@ -1,0 +1,24 @@
+
+<rss   version="2.0">
+  <channel>
+    <title>Portal Name</title>
+    <link>http://fullpath/Email/UI/Tracker/frmEmailTracker.aspx</link>
+    <description>Welcome to RSS of Portal Name</description>
+    <language>en-us</language>
+    <item>
+      <title>My First News Item</title>
+      <description>My First News Item</description>
+      <link>/Nd.aspx?NewsID=6</link>
+    </item>
+    <item>
+      <title>Second News Item</title>
+      <description>Second News Item</description>
+      <link>/Nd.aspx?NewsID=7</link>
+    </item>
+    <item>
+      <title>External URL</title>
+      <description>External URL</description>
+      <link>http://www.aljazeera.net</link>
+    </item>
+  </channel>
+</rss>

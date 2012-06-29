@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://localhost:8506/Services/EmailSender.asmx?wsdl" docRef="http://localhost:8506/Services/EmailSender.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://localhost:8506/Services/EmailSender.asmx" xmlns:q1="eXpressoServices" binding="q1:EmailSenderSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://localhost:8506/Services/EmailSender.asmx" xmlns:q2="eXpressoServices" binding="q2:EmailSenderSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

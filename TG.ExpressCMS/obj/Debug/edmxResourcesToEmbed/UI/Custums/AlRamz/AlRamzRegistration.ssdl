@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eXMNouhModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="eXMNouhModelStoreContainer">
+    <EntitySet Name="AlramzRegistration" EntityType="eXMNouhModel.Store.AlramzRegistration" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="AlramzRegistration">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MrsMr_1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="NumberOnAbudhabi_1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="NumberOnDubai_1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AccountType_1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Companies_TradeName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_LegalForm" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_RoomNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_RoomNumber_IssueDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_RoomNumber_ExpiryDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_TradeLicenseNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_TradeLicenseNumber_IssueDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_TradeLicenseNumber_ExpiryDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_POBOX" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_passportNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_Birthdate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_PoBox" Type="nvarchar" MaxLength="50" />
+    <Property Name="Companies_SignatureAuthority_Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Passportnumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Birthdate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_POBox" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_BOPox" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_WorkSite" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_Proffession" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_WorkAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_employmentNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Individual_ResidencePlace" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Passport" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_BDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_WorkSite" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Proffession" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_IdentityNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_AddressNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_POBox" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_NO" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_IssueDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Wakaleh_IssuePlace" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_AccountOwner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_AuthorityOwner" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_Nationality" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_PassportNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_BDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_yomathleh" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_WorkAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_Proffession" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_EmploymentNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_ResidencyPlace" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_POBox" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mushtarakah_Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="RelatedEmp_Type" Type="int" />
+    <Property Name="RelatedEmp_OwnerAccount" Type="nvarchar" MaxLength="50" />
+    <Property Name="RelatedEmp_CompanyOwner" Type="nvarchar" MaxLength="50" />
+    <Property Name="RelatedEmp_description" Type="nvarchar" MaxLength="500" />
+    <Property Name="Upload_AccountApp" Type="nvarchar" MaxLength="500" />
+    <Property Name="Upload_passportnumber" Type="nvarchar" MaxLength="500" />
+    <Property Name="Upload_Identity" Type="nvarchar" MaxLength="500" />
+    <Property Name="Upload_Summary" Type="nvarchar" MaxLength="500" />
+    <Property Name="Upload_wakaleh" Type="nvarchar" MaxLength="500" />
+    <Property Name="Upload_all" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <Function Name="AlRamzRegistrationInset" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="P_MrsMr_1" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_NumberOnAbudhabi_1" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_NumberOnDubai_1" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_AccountType_1" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_TradeName" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_LegalForm" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_Nationality" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_Type" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_RoomNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_RoomNumber_IssueDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_RoomNumber_ExpiryDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_TradeLicenseNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_TradeLicenseNumber_IssueDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_TradeLicenseNumber_ExpiryDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_Phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_Fax" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_POBOX" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_Nationality" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_passportNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_Birthdate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_fax" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_PoBox" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Companies_SignatureAuthority_Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Nationality" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Passportnumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Birthdate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_POBox" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_BOPox" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_WorkSite" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_Proffession" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_WorkAddress" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_employmentNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Individual_ResidencePlace" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Nationality" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Passport" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_BDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_WorkSite" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Proffession" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_IdentityNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_AddressNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_POBox" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_NO" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_IssueDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Wakaleh_IssuePlace" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_AccountOwner" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_AuthorityOwner" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_Nationality" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_PassportNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_BDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_Phone" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_Mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_yomathleh" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_WorkAddress" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_Proffession" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_EmploymentNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_ResidencyPlace" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_POBox" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Mushtarakah_Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_RelatedEmp_Type" Type="int" Mode="In" />
+    <Parameter Name="P_RelatedEmp_OwnerAccount" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_RelatedEmp_CompanyOwner" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_RelatedEmp_description" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Upload_AccountApp" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Upload_passportnumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Upload_Identity" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Upload_Summary" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Upload_wakaleh" Type="nvarchar" Mode="In" />
+    <Parameter Name="P_Upload_all" Type="nvarchar" Mode="In" />
+  </Function>
+</Schema>

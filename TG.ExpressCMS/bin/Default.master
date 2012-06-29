@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserSide.master.cs" Inherits="TG.ExpressCMS.UserPages.UserSide" %>
+
+<%@ Register Src="../UI/Menus/MenuViewerxsl_UC.ascx" TagName="MenuViewerxsl_UC" TagPrefix="uc130" %>
+<%@ Register Src="../UI/Html/HtmlViewer_UC.ascx" TagName="HtmlViewer_UC" TagPrefix="uc7" %>
+<%@ Register Src="../UI/News/NewsViewer_UC.ascx" TagName="NewsViewer_UC" TagPrefix="uc16" %>
+<%@ Register Src="../UI/Categories/CategoryViewer_UC.ascx" TagName="CategoryViewer_UC"
+    TagPrefix="uc1" %>
+<%@ Register Src="../UI/Search/Search_UC.ascx" TagName="Search_UC" TagPrefix="uc98" %>
+<%@ Register Src="../UI/Contact/ShortCutNewsletter_UC.ascx" TagName="ShortCutNewsletter_UC"
+    TagPrefix="uc3" %>
+<%@ Register Src="../UI/Gallery/GalleryViewerXsl_UC.ascx" TagName="GalleryViewerXsl_UC"
+    TagPrefix="uc20" %>
+<%@ Register Src="../UI/Banner/BannerUserSide_UC.ascx" TagName="BannerUserSide_UC"
+    TagPrefix="uc90" %>
+<%@ Register Src="../UI/Custums/RandomImages/HeaderImageReader_UCascx.ascx" TagName="HeaderImageReader_UCascx"
+    TagPrefix="uc2" %>
+<%@ Register Src="../UI/Event/EventCalendar_UC.ascx" TagName="EventCalendar_UC" TagPrefix="uc1" %>
+<%@ Register Src="../UI/Gallery/GalleryViewer_UC.ascx" TagName="GalleryViewer_UC"
+    TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <%--#Start_Region#--%>
+    <link href="../UI/CSS/CSSFiles/ex.css" rel="stylesheet" type="text/css" />
+    <link href="../UI/CSS/CSSFiles/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../highslide/highslide-with-gallery.js"></script>
+    <script type="text/javascript">
+        hs.graphicsDir = '../highslide/graphics/';
+        hs.align = 'center';
+        hs.transitions = ['expand', 'crossfade'];
+        hs.outlineType = 'rounded-white';
+        hs.wrapperClassName = 'controls-in-heading';
+        hs.fadeInOut = true;
+        hs.dimmingOpacity = 0.75;
+
+        if (hs.addSlideshow) hs.addSlideshow({
+            interval: 5000,
+            repeat: false,
+            useControls: true,
+            fixedControls: false,
+            overlayOptions: {
+                opacity: 1,
+                position: 'top right',
+                hideOnMouseOut: false
+            }
+        });
+    </script>
+    <%--#End_Region#--%>
+    <title>
+        <%=GetPageTitle()%></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+    <meta content="JavaScript" name="vs_defaultClientScript" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server" EnablePageMethods="true" LoadScriptsBeforeUI="true"
+        EnablePartialRendering="true" EnableScriptGlobalization="true" EnableScriptLocalization="true"
+        ScriptMode="Release">
+        <CompositeScript>
+            <Scripts>
+                <asp:ScriptReference Path="~/JS/AjaxLoader.js" />
+                <asp:ScriptReference Path="~/JS/Forum.js" />
+                <asp:ScriptReference Path="~/JS/Event.js" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+    <asp:UpdateProgress ID="UpdateProgressAnimation" runat="server" DisplayAfter="0">
+        <ProgressTemplate>
+            <div class="Loading">
+                <img src="../App_Themes/AdminSide/images/ajaxLoading.gif" /></div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <div class="all">
+        <div id="header">
+            <div id="logo">
+                <a href="default.aspx">
+                    <img src="../ui/css/media/png/logo.png" width="418" height="110" /></a></div>
+            <div id="top-menu">
+                <uc130:MenuViewerxsl_UC runat="server" CategoryID="60" XslID="13" />
+            </div>
+            <div id="search">
+                <uc98:Search_UC runat="server" />
+            </div>
+        </div>
+        <div id="main-menu">
+            <uc130:MenuViewerxsl_UC runat="server" CategoryID="13" XslID="13" />
+        </div>
+        <div class="center">
+            <div class="flash">
+                <uc7:HtmlViewer_UC runat="server" HashName="flash" />
+            </div>
+            <div class="latest-news">
+                <uc16:NewsViewer_UC ShowYears="false" ShowPager="false" ID="ddd" runat="server" CategoryID="48"
+                    Count="5" XSLID="7"></uc16:NewsViewer_UC>
+            </div>
+            <div class="gallery">
+                <div class="galry-view">
+                    <uc20:GalleryViewerXsl_UC count="10" xslid="21" type="61" id="GalleryViewer_UC1" runat="server" />
+                </div>
+            </div>
+            <div class="stydy">
+                <uc7:HtmlViewer_UC runat="server" HashName="stydy-banner" />
+            </div>
+            <div class="map">
+                <uc7:HtmlViewer_UC runat="server" HashName="map" />
+            </div>
+        </div>
+        <div class="left-channel">
+            <div class="welcome">
+                <uc7:HtmlViewer_UC runat="server" HashName="welcome" />
+            </div>
+            <div class="calender">
+                <uc1:EventCalendar_UC ID="EventCalendar_UC1" CategoryID="19" runat="server" />
+            </div>
+            <div class="newsletter">
+                <uc7:HtmlViewer_UC runat="server" HashName="news-letter" />
+                <uc3:ShortCutNewsletter_UC ID="ShortCutNewsletterUC3" runat="server" />
+            </div>
+        </div>
+    </div>
+    <div class="clr-dv">
+    </div>
+    <div class="ftr">
+        <uc130:MenuViewerxsl_UC runat="server" CategoryID="50" XslID="13" />
+        <uc7:HtmlViewer_UC runat="server" HashName="copy-right" />
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

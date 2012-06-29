@@ -1,0 +1,129 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserSide.master.cs" Inherits="TG.ExpressCMS.UserPages.UserSide" %>
+
+<%@ Register Src="../UI/Html/HtmlViewer_UC.ascx" TagName="HtmlViewer_UC" TagPrefix="uc17" %>
+<%@ Register Src="../UI/Menus/MenuViewerXsl_UC.ascx" TagName="MenuViewerXsl_UC" TagPrefix="uc13" %>
+<%@ Register Src="../UI/Search/Search_UC.ascx" TagName="Search_UC" TagPrefix="uc98" %>
+<%@ Register Src="../UI/News/NewsViewer_UC.ascx" TagName="NewsViewer_UC" TagPrefix="uc16" %>
+<%@ Register Src="../UI/Custums/Fattoush/BMICalculator_UC.ascx" TagName="BMICalculator_UC"
+    TagPrefix="uc412" %>
+<%@ Register Src="../UI/News/RandomNewsViewer_UC.ascx" TagName="RandomNewsViewer_UC"
+    TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <%--#Start_Region#--%>
+    <link href="../UI/CSS/CSSFiles/fatoosh.css" rel="stylesheet" type="text/css" />
+    <%--#End_Region#--%>
+    <title>
+        <%=GetPageTitle()%>
+    </title>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25776151-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <div id="Div1">
+    </div>
+    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="../js/jquery.showcase.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+    <meta content="JavaScript" name="vs_defaultClientScript" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="fb-root">
+    </div>
+    <script>        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=216836625043749";
+            fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));</script>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server" EnablePageMethods="true" LoadScriptsBeforeUI="true"
+        EnablePartialRendering="true" EnableScriptGlobalization="true" EnableScriptLocalization="true"
+        ScriptMode="Release">
+        <CompositeScript>
+            <Scripts>
+                <asp:ScriptReference Path="~/JS/AjaxLoader.js" />
+                <asp:ScriptReference Path="~/JS/Forum.js" />
+                <asp:ScriptReference Path="~/JS/Event.js" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+    <center>
+        <div class="all sub">
+            <div class="headerdv">
+                <uc13:MenuViewerXsl_UC runat="server" CategoryID="29" XslID="1" />
+                <div class="srchdv">
+                    <uc98:Search_UC runat="server" />
+                </div>
+                <uc17:HtmlViewer_UC runat="server" HashName="header" />
+            </div>
+            <uc13:MenuViewerXsl_UC runat="server" CategoryID="13" XslID="1" />
+            <div class="search">
+                <uc412:BMICalculator_UC ID="BMICalculator_UC1" runat="server" />
+                <uc17:HtmlViewer_UC runat="server" HashName="hdr-link" />
+            </div>
+            <div class="ContentPlaceHolder1">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="video">
+                <uc1:RandomNewsViewer_UC ID="RandomNewsViewer_UC1" runat="server" XSLID="17" CategoryID="40"
+                    ShowFeatured="0" />
+            </div>
+            <div class="advdv">
+                <div class="fb-like-box" data-href="https://www.facebook.com/pages/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9-%D9%81%D8%AA%D9%88%D9%88%D9%88%D8%B4-Fattoush-Clinic/218649571534317"
+                    data-width="300" data-height="300" data-show-faces="true" data-stream="false"
+                    data-header="true">
+                </div>
+            </div>
+        </div>
+        <div class="advdv" style="margin-left: 165px;">
+            <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-1981521975883198";
+                /* InsideMenu */
+                google_ad_slot = "4738015290";
+                google_ad_width = 300;
+                google_ad_height = 250;
+//-->
+            </script>
+            <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                <uc13:MenuViewerXsl_UC runat="server" CategoryID="30" XslID="1" />
+                <div class="bottomDownBanner">
+                    <center>
+                        <script type="text/javascript"><!--
+                            google_ad_client = "ca-pub-1981521975883198";
+                            /* DownMainPage */
+                            google_ad_slot = "0237362647";
+                            google_ad_width = 728;
+                            google_ad_height = 90;
+//-->
+                        </script>
+                        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AddPosts" xml:space="preserve">
+    <value>Add posts</value>
+  </data>
+  <data name="AddThread" xml:space="preserve">
+    <value>Add thread</value>
+  </data>
+  <data name="AddUserSuccessfully" xml:space="preserve">
+    <value>Operation done successfully</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Banned" xml:space="preserve">
+    <value>Banned</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Birth date</value>
+  </data>
+  <data name="btnExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ChangeImage" xml:space="preserve">
+    <value>Change image</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="DisApproved" xml:space="preserve">
+    <value>DisApproved</value>
+  </data>
+  <data name="Forum" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="ForumGroup" xml:space="preserve">
+    <value>Forum group</value>
+  </data>
+  <data name="ForumGroupManager" xml:space="preserve">
+    <value>Forum group manager</value>
+  </data>
+  <data name="ForumManager" xml:space="preserve">
+    <value>Forum manager</value>
+  </data>
+  <data name="ForumPostManager" xml:space="preserve">
+    <value>Forum post manager</value>
+  </data>
+  <data name="ForumPosts" xml:space="preserve">
+    <value>Forum posts</value>
+  </data>
+  <data name="ForumThread" xml:space="preserve">
+    <value>Forum thread</value>
+  </data>
+  <data name="ForumThreadManager" xml:space="preserve">
+    <value>Forum thread manager</value>
+  </data>
+  <data name="ForumUser" xml:space="preserve">
+    <value>Forum user</value>
+  </data>
+  <data name="ForumUserManager" xml:space="preserve">
+    <value>Forum user manager</value>
+  </data>
+  <data name="GroupTitle" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="ibtnadd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ibtnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Is active</value>
+  </data>
+  <data name="IsBanned" xml:space="preserve">
+    <value>Is banned</value>
+  </data>
+  <data name="IsTrusted" xml:space="preserve">
+    <value>Is trusted</value>
+  </data>
+  <data name="JoinDate" xml:space="preserve">
+    <value>Join date</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="LastThread" xml:space="preserve">
+    <value>Last thread</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NoForum" xml:space="preserve">
+    <value>No forum</value>
+  </data>
+  <data name="NoItems" xml:space="preserve">
+    <value>No items</value>
+  </data>
+  <data name="NotBanned" xml:space="preserve">
+    <value>Not banned</value>
+  </data>
+  <data name="NotTrusted" xml:space="preserve">
+    <value>Not trusted</value>
+  </data>
+  <data name="NumberForumViews" xml:space="preserve">
+    <value>Number forum views</value>
+  </data>
+  <data name="NumberThreadViews" xml:space="preserve">
+    <value>Number thread views</value>
+  </data>
+  <data name="ParentPost" xml:space="preserve">
+    <value>Parent post</value>
+  </data>
+  <data name="PleaseSelectForum" xml:space="preserve">
+    <value>Please select forum</value>
+  </data>
+  <data name="PleaseSelectForumThread" xml:space="preserve">
+    <value>Please select thread</value>
+  </data>
+  <data name="PleaseSelectPost" xml:space="preserve">
+    <value>Please select post</value>
+  </data>
+  <data name="PleaseSelectUser" xml:space="preserve">
+    <value>Please select user</value>
+  </data>
+  <data name="Posts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="PostsPerPage" xml:space="preserve">
+    <value>Posts per page</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="SavedPostSuccessfully" xml:space="preserve">
+    <value>Saved post successfully</value>
+  </data>
+  <data name="SavePost" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SecurityUser" xml:space="preserve">
+    <value>Security user</value>
+  </data>
+  <data name="SecurityUserEmail" xml:space="preserve">
+    <value>Security user email</value>
+  </data>
+  <data name="SecurityUserID" xml:space="preserve">
+    <value>Security user Id</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="ThreadsPerPage" xml:space="preserve">
+    <value>Threads per page</value>
+  </data>
+  <data name="ThreadTitle" xml:space="preserve">
+    <value>Thread title</value>
+  </data>
+  <data name="TotalPosts" xml:space="preserve">
+    <value>Total posts</value>
+  </data>
+  <data name="TotalThreads" xml:space="preserve">
+    <value>Total threads</value>
+  </data>
+  <data name="Trusted" xml:space="preserve">
+    <value>Trusted</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="UserRateValue" xml:space="preserve">
+    <value>User rate value</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>User type</value>
+  </data>
+  <data name="valSummHeader" xml:space="preserve">
+    <value>Please review the following field(s):</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordFieldAndTheConfirmPasswordFieldEqual" xml:space="preserve">
+    <value>The password field and the confirm password field must be equal</value>
+  </data>
+  <data name="ErrorUsernotfound" xml:space="preserve">
+    <value>Error occured during the process</value>
+  </data>
+  <data name="lblRegisterUsersForums" xml:space="preserve">
+    <value>Register New User</value>
+  </data>
+  <data name="lblWelCome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="ProfileSettings" xml:space="preserve">
+    <value>Profile Settings</value>
+  </data>
+  <data name="lblForumUserPrfilePages" xml:space="preserve">
+    <value>Account Information</value>
+  </data>
+  <data name="lblSecurityInformarion" xml:space="preserve">
+    <value>Account Security Information</value>
+  </data>
+  <data name="lblLogut" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="lblChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="lblAddedby" xml:space="preserve">
+    <value>Added by:</value>
+  </data>
+  <data name="lblParticipationcount" xml:space="preserve">
+    <value>Participation Count:</value>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>Signature:</value>
+  </data>
+  <data name="lblAddpost" xml:space="preserve">
+    <value>Add Post</value>
+  </data>
+</root>

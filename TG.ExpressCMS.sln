@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.ExpressCMS.UI", "TG.ExpressCMS\TG.ExpressCMS.UI.csproj", "{6D3A4C31-9D3E-4B54-9FC5-E1F61D5D8349}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2EEF657-64CB-4A79-B656-5532424DC9B8} = {B2EEF657-64CB-4A79-B656-5532424DC9B8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.ExpressCMS.DataLayer", "TG.ExpressCMS.DataLayer\TG.ExpressCMS.DataLayer.csproj", "{0BBB64EB-4368-471F-B07C-8AC7132F32E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.ExpressCMS.Configuration", "TG.ExpressCMS.Configuration\TG.ExpressCMS.Configuration.csproj", "{7B2F5486-9C48-4494-BAE5-3689C1BEA8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.ExpressCMS.DataLayer.Enums", "TG.ExpressCMS.DataLayer.Enums\TG.ExpressCMS.DataLayer.Enums.csproj", "{0AF83329-CCA3-4813-B197-E5ADBB11206E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.ExpressCMS.Services", "TG.ExpressCMS.Services\TG.ExpressCMS.Services.csproj", "{B2EEF657-64CB-4A79-B656-5532424DC9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TG.ExpressCMS.Utilities", "TG.ExpressCMS.Utilities\TG.ExpressCMS.Utilities.csproj", "{0CE0A5B0-9845-41B2-B774-9588C6D44542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{624AD23B-9D3B-4907-B79C-3D2D6B2EFF79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{73A679FD-CDB2-4806-8A18-FC8C968087B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayers", "DataLayers", "{27A10C3B-5F23-4909-BE55-ED0315328D48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{E8F25E52-4AFE-4C44-8085-59755A1314BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{52FE2A0C-9704-4CFB-B792-0B62363C31BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{8A452FFD-350E-45C5-A9D5-5419949B1D00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{F9FD968A-6F48-4F08-815E-9E9D684BBE10}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Published", "Published\", "{32331FA9-F7A3-4946-9BD4-781D6C132CFD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Published"
+		Debug.AspNetCompiler.PhysicalPath = "Published\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Published\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Published"
+		Release.AspNetCompiler.PhysicalPath = "Published\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Published\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1725"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D3A4C31-9D3E-4B54-9FC5-E1F61D5D8349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3A4C31-9D3E-4B54-9FC5-E1F61D5D8349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3A4C31-9D3E-4B54-9FC5-E1F61D5D8349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3A4C31-9D3E-4B54-9FC5-E1F61D5D8349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBB64EB-4368-471F-B07C-8AC7132F32E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBB64EB-4368-471F-B07C-8AC7132F32E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBB64EB-4368-471F-B07C-8AC7132F32E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBB64EB-4368-471F-B07C-8AC7132F32E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2F5486-9C48-4494-BAE5-3689C1BEA8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2F5486-9C48-4494-BAE5-3689C1BEA8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2F5486-9C48-4494-BAE5-3689C1BEA8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2F5486-9C48-4494-BAE5-3689C1BEA8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF83329-CCA3-4813-B197-E5ADBB11206E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF83329-CCA3-4813-B197-E5ADBB11206E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF83329-CCA3-4813-B197-E5ADBB11206E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF83329-CCA3-4813-B197-E5ADBB11206E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EEF657-64CB-4A79-B656-5532424DC9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EEF657-64CB-4A79-B656-5532424DC9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EEF657-64CB-4A79-B656-5532424DC9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EEF657-64CB-4A79-B656-5532424DC9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE0A5B0-9845-41B2-B774-9588C6D44542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE0A5B0-9845-41B2-B774-9588C6D44542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE0A5B0-9845-41B2-B774-9588C6D44542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE0A5B0-9845-41B2-B774-9588C6D44542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32331FA9-F7A3-4946-9BD4-781D6C132CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32331FA9-F7A3-4946-9BD4-781D6C132CFD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{32331FA9-F7A3-4946-9BD4-781D6C132CFD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D3A4C31-9D3E-4B54-9FC5-E1F61D5D8349} = {73A679FD-CDB2-4806-8A18-FC8C968087B4}
+		{32331FA9-F7A3-4946-9BD4-781D6C132CFD} = {73A679FD-CDB2-4806-8A18-FC8C968087B4}
+		{0BBB64EB-4368-471F-B07C-8AC7132F32E2} = {27A10C3B-5F23-4909-BE55-ED0315328D48}
+		{7B2F5486-9C48-4494-BAE5-3689C1BEA8EA} = {624AD23B-9D3B-4907-B79C-3D2D6B2EFF79}
+		{0AF83329-CCA3-4813-B197-E5ADBB11206E} = {E8F25E52-4AFE-4C44-8085-59755A1314BB}
+		{B2EEF657-64CB-4A79-B656-5532424DC9B8} = {52FE2A0C-9704-4CFB-B792-0B62363C31BB}
+		{0CE0A5B0-9845-41B2-B774-9588C6D44542} = {8A452FFD-350E-45C5-A9D5-5419949B1D00}
+	EndGlobalSection
+EndGlobal

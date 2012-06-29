@@ -1,0 +1,15 @@
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.Configuration\bin\Debug\TG.ExpressCMS.Configuration.dll
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.Configuration\bin\Debug\TG.ExpressCMS.Configuration.pdb
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.Configuration\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.dll
+C:\Users\Yahia\Documents\Visual Studio 2008\Projects\TG.ExpressCMS\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.pdb
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.Configuration\bin\Debug\TG.ExpressCMS.Configuration.dll
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.Configuration\bin\Debug\TG.ExpressCMS.Configuration.pdb
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.csprojResolveAssemblyReference.cache
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.dll
+E:\Projects\CMS-eXpresso\DrMNouh\Project\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.pdb
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.Configuration\bin\Debug\TG.ExpressCMS.Configuration.dll
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.Configuration\bin\Debug\TG.ExpressCMS.Configuration.pdb
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.Configuration\obj\Debug\ResolveAssemblyReference.cache
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.dll
+D:\Coding\Projects\eXpressoCMS\Project\TG.ExpressCMS.Configuration\obj\Debug\TG.ExpressCMS.Configuration.pdb

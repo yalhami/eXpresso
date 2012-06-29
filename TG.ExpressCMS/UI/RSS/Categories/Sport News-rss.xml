@@ -1,0 +1,18 @@
+<rss version="2">
+  <channel>
+    <title>Portal Name</title>
+    <link>http://localhost:1895</link>
+    <description>Welcome to RSS of Portal Name</description>
+    <language>en-us</language>
+    <item>
+      <title>Valencia vs Shalke 04</title>
+      <description>Valencia vs Shalke 04 UEFA champions league</description>
+      <link>/Nd.aspx?NewsID=9</link>
+    </item>
+    <item>
+      <title>Milan vs Totnham</title>
+      <description>Milan vs Totnham UEFA</description>
+      <link>/Nd.aspx?NewsID=10</link>
+    </item>
+  </channel>
+</rss>

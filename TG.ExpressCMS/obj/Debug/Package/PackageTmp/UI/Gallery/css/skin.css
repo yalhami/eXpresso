@@ -1,0 +1,84 @@
+
+.jcarousel-skin-tango.jcarousel-container {
+    -moz-border-radius: 10px;
+    
+
+}
+
+.jcarousel-skin-tango.jcarousel-container-horizontal {
+    width: 563px;
+	height:90px; 
+	margin:7px 0;
+
+}
+
+ 
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 563px;
+	height:84px;
+	padding:8px 0 0 0;
+	border:solid red 0px;
+}
+
+ 
+
+.jcarousel-control {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.jcarousel-control a:focus, .jcarousel-control a:active {
+	outline: none;
+}
+.jcarousel-scroll {
+	margin-top: 10px;
+	text-align: center;
+}
+.jcarousel-scroll form {
+	margin: 0;
+	padding: 0;
+}
+.jcarousel-scroll select {
+	font-size: 75%;
+}
+#mycarousel-next, #mycarousel-prev {
+	cursor: pointer;
+	margin-bottom: -10px;
+	text-decoration: underline;
+	font-size: 11px;
+	display:block;
+}
+#mycarousel-next
+{
+	text-align:center;
+	width:15px;
+}
+#mycarousel-prev
+{
+	text-align:center;
+	width:15px;
+}
+ 
+
+ .jcarousel-skin-tango .jcarousel-item {
+
+  width:65px;
+ height:65px;
+  vertical-align:middle;
+  text-align:center;
+  margin:0 6px;
+}
+
+
+ .jcarousel-skin-tango ul li 
+ {
+	 border:solid #ffc816 1px;
+	 background-color:#fff;
+	 	height:70px;
+		float:left;
+		display:block;
+		width:75px;
+	 padding:7px;}
+ 
+  .jcarousel-skin-tango ul li  img
+  {border:none}

@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using TG.ExpressCMS.DataLayer.Data;
+using TG.ExpressCMS.Services;
+using TG.ExpressCMS.Utilities;
+
+namespace TG.ExpressCMS.UI.Contact
+{
+    public partial class RegisterNewsLetter_UC : System.Web.UI.UserControl
+    {
+        protected override void OnInit(EventArgs e)
+        {
+            base.OnInit(e);
+            this.Load += new EventHandler(ContactUs_UC_Load);
+            this.btnSaveUpdate.Click += new EventHandler(btnSaveUpdate_Click);
+        }
+
+        void btnSaveUpdate_Click(object sender, EventArgs e)
+        {
+            string result = string.Empty;
+            TG.ExpressCMS.DataLayer.Entities.Contact _quiry = new TG.ExpressCMS.DataLayer.Entities.Contact();
+            _quiry.Country = HttpUtility.HtmlEncode(txtCountry.Text);
+            _quiry.Email = HttpUtility.HtmlEncode(txtEmail.Text);
+            _quiry.Notes = HttpUtility.HtmlEncode(txtDescription.Text);
+            _quiry.FirstName = HttpUtility.HtmlEncode(txtName.Text);
+            _quiry.SurName = HttpUtility.HtmlEncode(txtSurname.Text);
+            _quiry.Phone2 = "";
+            _quiry.ZipCode = "";
+            _quiry.Company = "";
+            //      _quiry.Company = HttpUtility.HtmlEncode(txtCompany.Text);
+            _quiry.Guid = Guid.NewGuid().ToString();
+            _quiry.Mobile = HttpUtility.HtmlEncode(txtPhone.Text);
+            _quiry.IsDeleted = false;
+            _quiry.Status = TG.ExpressCMS.DataLayer.Enums.RootEnums.ContactStatus.InActive;
+
+            ContactManager.Add(_quiry);
+            if (_quiry.ID > 0)
+            {
+                dvMessage.InnerText = Resources.ExpressCMS.ResourceManager.GetString("NewsLetterSuccessSubscribtion");
+
+                EmailSender webServ = new EmailSender();
+                //Fire and Ignore web service calling.
+                //     webServ.SendConfirmationEmail(_quiry.Email, _quiry.FullName);
+
+            }
+            else
+
+                dvMessage.InnerText = Resources.ExpressCMS.ResourceManager.GetString("NewsLetterFailedSubscribtion");
+            ScriptManager.RegisterStartupScript(upnall, upnall.GetType(), "MSG", "alert('" + dvMessage.InnerText + "');", true);
+        }
+
+        void ContactUs_UC_Load(object sender, EventArgs e)
+        {
+            dvMessage.InnerText = "";
+            dvMessage.InnerHtml = "";
+            if (Request.QueryString[ConstantsManager.Email] != null)
+                txtEmail.Text = HttpUtility.HtmlEncode(Request.QueryString[ConstantsManager.Email]);
+
+        }
+    }
+}

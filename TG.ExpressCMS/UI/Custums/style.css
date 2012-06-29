@@ -1,0 +1,1184 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+a:link
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #0C3E66;
+    text-decoration: none;
+}
+a:visited
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #0C3E66;
+    text-decoration: none;
+}
+a:hover
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #4C799A;
+    text-decoration: none;
+}
+a:active
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #0C3E66;
+    text-decoration: none;
+}
+.A1
+{
+    float: right;
+    height: 20px;
+    width: 240px;
+    margin-top: 13px;
+}
+.A2
+{
+    float: right;
+    height: 20px;
+    width: 240px;
+    margin-top: 5px;
+}
+.A3
+{
+    float: right;
+    height: 20px;
+    width: 240px;
+    margin-top: 7px;
+}
+body
+{
+    background-color: #b99630;
+    text-align: center;
+    background-image: url(../../../upload/files/BG.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.Button-En
+{
+    float: right;
+    height: 20px;
+    width: 44px;
+}
+.ContentLink
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1D334C;
+    text-decoration: none;
+    width: 100%;
+}
+
+.ContentLink a:link
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1D334C;
+    text-decoration: none;
+    width: 100%;
+}
+.ContentLink a:visited
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1D334C;
+    text-decoration: none;
+    width: 100%;
+}
+.ContentLink a:hover
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #D5C184;
+    text-decoration: none;
+    width: 100%;
+}
+.ContentLink a:active
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #AF8E2D;
+    text-decoration: none;
+    width: 100%;
+}
+.container
+{
+    position: absolute; /*top:50%;*/
+    right: 50%; /*margin-top:-310px; half elements height*/
+    margin-right: -460px; /*half elements width*/
+    width: 920px;
+    height: 632px;
+    text-align: right;
+}
+.content
+{
+    width: 920px;
+    height: 512px;
+}
+.Copyright
+{
+    font-family: tahoma;
+    font-size: 9px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding-top: 2px;
+    padding-right: 6px;
+}
+.ContentArea
+{
+    height: 355px;
+    width: 864px;
+    position: absolute;
+    right: 18px;
+    top: 134px;
+    overflow: auto;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    direction: ltr;
+    background-color: #FFF;
+}
+.FooterContainer
+{
+    height: 22px;
+    width: 892px;
+    position: absolute;
+    right: 18px;
+    top: 608px;
+}
+
+.HeaderSearchField
+{
+    float: right;
+    height: 20px;
+    width: 100%;
+    text-align: right;
+}
+.SearchFieldS
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    color: #B69842;
+    text-decoration: none;
+    background-color: #1F1209;
+    height: 20px;
+    width: 150px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    direction: ltr;
+    float: left;
+    border: none;
+    margin-right: 6px;
+}
+.header
+{
+    width: 920px;
+    height: 120px;
+    background-image: url(../../../upload/files/HeaderBG.png);
+}
+.Home
+{
+    float: right;
+    height: 20px;
+    margin-right: 6px;
+}
+img
+{
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+.RightContent
+{
+    width: 610px;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+.Logo
+{
+    float: left;
+    height: 120px;
+    width: 110px;
+}
+.MainText
+{
+    width: 610px;
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    text-align: justify;
+    padding-bottom: 30px;
+    direction: ltr;
+    font-family: tahoma;
+}
+.MenuAdvanced
+{
+    float: right;
+    height: 120px;
+    width: 240px;
+    margin-right: 17px;
+}
+.MainBanner
+{
+    height: 245px;
+    width: 610px;
+    position: relative;
+    float: right;
+}
+.MainBannerText
+{
+    height: 260px;
+    width: 610px;
+    background-color: #DDD;
+    position: relative;
+    float: right;
+}
+.MenuContainer
+{
+    float: left;
+    height: 120px;
+    width: 532px;
+}
+.NewsDate
+{
+    float: left;
+    font-family: arial;
+    font-size: 10px;
+    font-weight: normal;
+    color: #c1af69;
+    direction: ltr;
+    padding-right: 4px;
+}
+.NewsTitle
+{
+    float: left;
+    font-size: 11px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #123a6c;
+    direction: ltr;
+}
+.NewsText
+{
+    float: right;
+    font-size: 11px;
+    font-family: tahoma;
+    font-weight: normal;
+    color: #444;
+    width: 220px;
+    text-align: justify;
+    direction: ltr;
+    height: 27px;
+    overflow: hidden;
+}
+.LeftContent
+{
+    float: right;
+    width: 220px;
+    direction: ltr;
+}
+.SideBox
+{
+    float: right;
+    width: 220px;
+    font-family: Arial;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #ccc;
+    direction: ltr;
+}
+.SideBoxIcon
+{
+    float: left;
+    width: 50px;
+    font-family: Arial;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.SideBoxText
+{
+    float: right;
+    width: 165px;
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    padding-bottom: 10px;
+    direction: ltr;
+    text-align: left;
+}
+.SideBoxTitle
+{
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    color: #123a6c;
+    text-decoration: none;
+    cursor: default;
+    direction: ltr;
+    text-align: right;
+}
+.SideBoxSep
+{
+    float: right;
+    width: 220px;
+    font-family: Arial;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    height: 6px;
+}
+.SideBoxTitleContent
+{
+    font-family: tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    cursor: default;
+    direction: ltr;
+    text-align: right;
+}
+.SideBoxText a:link
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxText a:visited
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxText a:hover
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #C4A654;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxText a:active
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #73642F;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxContact
+{
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideNewsText
+{
+    float: right;
+    width: 220px;
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.SideNewsText a:link
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+}
+.SideNewsText a:visited
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+}
+.SideNewsText a:hover
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #C4A654;
+    text-decoration: none;
+}
+.SideNewsText a:active
+{
+    font-family: tahoma;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #73642F;
+    text-decoration: none;
+}
+.SideNews
+{
+    float: right;
+    width: 220px;
+    font-family: Arial;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #eee;
+    height: 56px;
+    overflow: hidden;
+}
+.Service-OTC
+{
+    display: block;
+    height: 87px;
+    width: 58px;
+    margin-top: 11px;
+    float: right;
+}
+.Service-eTrade
+{
+    display: block;
+    height: 87px;
+    width: 58px;
+    margin-top: 11px;
+    float: right;
+}
+.Service-Research
+{
+    display: block;
+    height: 87px;
+    width: 80px;
+    margin-top: 11px;
+    float: right;
+}
+.Service-Islamic
+{
+    display: block;
+    height: 87px;
+    width: 63px;
+    margin-top: 11px;
+    float: right;
+}
+.Service-Individual
+{
+    display: block;
+    height: 87px;
+    width: 61px;
+    margin-top: 11px;
+    float: right;
+}
+.Service-Institutional
+{
+    display: block;
+    height: 87px;
+    width: 85px;
+    margin-top: 11px;
+    float: right;
+}
+.Service-Borsat
+{
+    display: block;
+    height: 87px;
+    width: 53px;
+    margin-top: 11px;
+    float: right;
+}
+.SocialMedia1
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding-top: 2px;
+    padding-right: 6px;
+}
+.SocialMedia2
+{
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding-right: 6px;
+}
+.SubTitle
+{
+    font-family: tahoma;
+    font-weight: bold;
+    color: #0d2d55;
+    text-decoration: none;
+    font-size: 13px;
+    direction: ltr;
+}
+.Ticker
+{
+    height: 43px;
+    width: 884px;
+    position: absolute;
+    right: 18px;
+    top: 510px;
+    overflow: auto;
+    padding: 0px;
+}
+.iTicker
+{
+    height: 43px;
+    width: 884px;
+    overflow: hidden;
+    border: none;
+}
+.FooterNav
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #fff;
+    background-image: url(../../../upload/files/NavigationBG.jpg);
+    float: right;
+    padding-right: 10px;
+}
+.FooterNav a:link
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #fff;
+    background-image: url(../../../upload/files/NavigationBG.jpg);
+    float: right;
+    text-decoration: none;
+}
+.FooterNav a:visited
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #fff;
+    background-image: url(../../../upload/files/NavigationBG.jpg);
+    float: right;
+    text-decoration: none;
+}
+.FooterNav a:hover
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #C1AF69;
+    background-image: url(../../../upload/files/NavigationBG.jpg);
+    float: right;
+    text-decoration: none;
+}
+.FooterNav a:active
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #CAB368;
+    background-image: url(../../../upload/files/NavigationBG.jpg);
+    float: right;
+    text-decoration: none;
+}
+.title
+{
+    font-family: tahoma;
+    font-weight: bold;
+    color: #0d2d55;
+    text-decoration: none;
+    font-size: 17px;
+}
+.TV-Top
+{
+    background-image: url(../../../upload/files/TV-Top.png);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 920px;
+}
+.TV-Center
+{
+    background-image: url(../../../upload/files/TV-Center.png);
+    background-repeat: repeat-y;
+    width: 920px;
+    height: 418px;
+}
+.TV-Bottom
+{
+    background-image: url(../../../upload/files/TV-Bottom.png);
+    height: 68px;
+    width: 920px;
+    background-repeat: no-repeat;
+}
+.SideBoxLinksContainer
+{
+    float: right;
+    width: 220px;
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #ccc;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    direction: ltr;
+    text-align: right;
+}
+.SideBoxLinksContainer a:link
+{
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0C3E65;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxLinksContainer a:visited
+{
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0C3E65;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxLinksContainer a:hover
+{
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #806D37;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxLinksContainer a:active
+{
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0C3E65;
+    text-decoration: none;
+    direction: ltr;
+}
+.RightContentFloating
+{
+    float: right;
+    width: 220px;
+    position: fixed;
+}
+.TableHeader
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #0d2d55;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+    direction: ltr;
+}
+.TableHeaderMain
+{
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0d2d55;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+    direction: ltr;
+}
+.TD
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+    direction: ltr;
+}
+.MainTextException
+{
+    height: 120px;
+    width: 610px;
+    position: relative;
+    float: right;
+    padding-top: 10px;
+    text-align: justify;
+    padding-bottom: 30px;
+    direction: ltr;
+    font-family: tahoma;
+}
+.LoginScreen
+{
+    height: 375px;
+    width: 884px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    direction: ltr;
+}
+.ContentArea2
+{
+    height: 375px;
+    width: 884px;
+    position: absolute;
+    right: 18px;
+    top: 135px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    padding: 0px;
+}
+.SideBoxTitleContent a:link
+{
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0d2d55;
+    text-decoration: none;
+    direction: ltr;
+    text-align: right;
+}
+.TableHeaderHome
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #0d2d55;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+}
+.SideBoxTitleContent a:visited
+{
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0d2d55;
+    text-decoration: none;
+    direction: ltr;
+    text-align: right;
+}
+.SideBoxTitleContent a:hover
+{
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #C6A44E;
+    text-decoration: none;
+    direction: ltr;
+    text-align: right;
+}
+.SideBoxTitleContent a:active
+{
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8F773A;
+    text-decoration: none;
+    direction: ltr;
+    text-align: right;
+}
+.SideBoxnews
+{
+    float: right;
+    width: 220px;
+    font-family: Arial;
+    font-size: 10.5px;
+    font-weight: normal;
+    color: #444;
+    text-decoration: none;
+    direction: ltr;
+}
+.SideBoxTel
+{
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    cursor: default;
+    direction: ltr;
+    text-align: right;
+}
+.TickerAr
+{
+    height: 43px;
+    width: 884px;
+    overflow: auto;
+    background-image: url(../../../upload/files/TickerBG.png);
+}
+.SearchButton
+{
+    float: right;
+    height: 20px;
+    width: 74px;
+    text-align: right;
+}
+.DFMTable
+{
+    width: 400px;
+    position: relative;
+    float: right;
+    text-align: justify;
+    direction: ltr;
+    font-family: tahoma;
+}
+.MainGrids
+{
+    width: 610px;
+    position: relative;
+    float: right;
+    padding-top: 0px;
+    text-align: justify;
+    padding-bottom: 30px;
+    direction: ltr;
+    font-family: tahoma;
+}
+.TableSubHeaderHome
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #ececec;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+}
+.TableRowHome
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+}
+.MarketTable
+{
+    width: 185px;
+    position: relative;
+    float: right;
+    text-align: justify;
+    direction: ltr;
+    font-family: tahoma;
+}
+.VideoContainer
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #cecece;
+    padding: 5px;
+    float: right;
+    width: 210px;
+}
+.LeftContent2
+{
+    float: right;
+    width: 220px;
+    direction: ltr;
+    padding-top: 15px;
+}
+.LeftSide
+{
+    float: right;
+    width: 220px;
+    direction: ltr;
+}
+.VideoInsideContainer
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #cecece;
+    float: right;
+    width: 210px;
+    margin-bottom: 8px;
+    direction: ltr;
+    text-align: justify;
+    margin-top: 4px;
+}
+.VideoThumb
+{
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #cecece;
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+}
+.VideoText
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #cecece;
+    float: right;
+    width: 128px;
+    direction: ltr;
+}
+.VideoTitle
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #144D7C;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoTitle a:link
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #144D7C;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoTitle a:visited
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #144D7C;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoTitle a:hover
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #1A67A7;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoTitle a:active
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #1D80D3;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoText a:link
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoText a:visited
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoText a:hover
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.VideoText a:active
+{
+    font-family: tahoma;
+    font-size: 10px;
+    font-weight: normal;
+    color: #999;
+    text-decoration: none;
+    background-color: #cecece;
+    direction: ltr;
+}
+.searchresult h3
+{
+    color: #123A6C;
+}
+.searchresult strong
+{
+    color: #C1AF69;
+    padding-top: 15px;
+    display: block;
+}
+.pagerdv
+{
+    margin-top: 15px;
+}
+.searchresult table td
+{
+    padding-bottom: 10px;
+    border-bottom: dotted 1px #C1AF69;
+}
+.searchresult a
+{
+    float: right;
+}
+.searchresult .pagerdv table td
+{
+    border: none;
+}
+.searchresult
+{
+    font-family: tahoma;
+}
+.PollContainer
+{
+    border: solid 2px #C1AF69;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+}
+.actions .btn
+{
+    background: none repeat scroll 0 0 #000000;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 130px;
+    padding: 3px 10px;
+}
+
+.btn .back
+{
+    float: left;
+}
+.btnNext
+{
+    float: right;
+}
+.btnBack
+{
+    float: left;
+}
+.Reqiured
+{
+    color: Red;
+}
+.Req
+{
+    margin-top: 20px;
+}

@@ -1,0 +1,113 @@
+.ForumHeader
+{
+
+    font-size: 12px;
+    font-weight: normal;
+    color: #C1AF69;
+    text-decoration: none;
+    background-color: #3A2B18;
+    background-image: url(images/ForumHeaderBG.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+}
+.ForumHeaderSub
+{
+
+    font-size: 11px;
+    font-weight: normal;
+    color: #3A2B18;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px;
+    background-image: url(images/ForumSubHeaderBG.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+BORDER-LEFT:SOLID 1PX #3A2B18;
+}
+.TableBorder
+{
+    border: 1px solid #C7C4B3;
+}
+.ForumRowOdd
+{
+   
+    font-size: 11px;
+    font-weight: normal;
+    color: #3A2B18;
+    text-decoration: none;
+    background-color: #fff;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+text-align:right;
+BORDER-LEFT:SOLID 1PX #CCC;
+}
+.ForumRowOdd_IMG
+{
+   
+    font-size: 11px;
+    font-weight: normal;
+    color: #3A2B18;
+    text-decoration: none;
+    background-color: #fff;
+    vertical-align: MIDDLE;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+text-align:right;
+BORDER-LEFT:SOLID 1PX #CCC;
+}
+.ForumRowEven
+{
+   
+    font-size: 11px;
+    font-weight: normal;
+    color: #3A2B18;
+    text-decoration: none;
+    background-color: #fff;
+    vertical-align: MIDDLE;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+text-align:right;
+}
+.ContentTitle
+{
+    font-family: tahoma;
+    font-size: 16px;
+    font-weight: normal;
+    color: #123A6C;
+    text-decoration: none;
+    margin-bottom: 15px;
+    direction: rtl;
+}
+.registrtbl td{
+white-space:nowrap;
+padding:5px;
+}
+.btnSubmit_reset,.btnSubmit_save, .btnSubmit_update ,.btn-adds .btn
+{
+    background:#3A2B18;
+    border: 0;
+    height: 22;
+    float:left;
+color:#C1AF69;
+font-size:10px;
+padding:3px;
+margin-left:35px;
+}
+.lgnaction .btn{margin-left:270px; margin-top:10px;}
+.formreg .btn{margin-left:25px;}
+.RightContent .SideNews{width:auto;}
+.RightContent .SideNewsText{width:auto;}
+.RightContent .NewsText{width:auto; float:right; width:100%;}
+.bgwhite-tbl .TableBorder{ border:none; }
+#ctl00_ContentPlaceHolder1_AddPost_UC1_pnlAddPost input.btnSubmit_save{float:right; margin-right:325px;}

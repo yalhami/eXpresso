@@ -1,0 +1,32 @@
+<slideshow>
+  <photo image="images3/1.jpg" bigimage = "images3/big/1.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[Hello]]>
+  </photo>
+  <photo image="images3/2.jpg" bigimage = "images3/big/2.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[Download the new<br>Image Scroller]]>
+  </photo>
+  <photo image="images3/3.jpg" bigimage = "images3/big/3.jpg" target="_blank" lightboxinfo="" url="#/">
+    <![CDATA[for FREE]]>
+  </photo>
+  <photo image="images3/4.jpg" bigimage = "images3/big/4.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[This menu has<br>a lot of options]]>
+  </photo>
+  <photo image="images3/5.jpg" bigimage = "images3/big/5.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[Test them below]]>
+  </photo>
+    <photo image="images3/6.jpg" bigimage = "images3/big/1.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[Hello]]>
+  </photo>
+  <photo image="images3/7.jpg" bigimage = "images3/big/2.jpg" target="_blank" lightboxinfo="" url="#l">
+    <![CDATA[Download the new<br>Image Scroller]]>
+  </photo>
+  <photo image="images3/8.jpg" bigimage = "images3/big/3.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[for FREE]]>
+  </photo>
+  <photo image="images3/9.jpg" bigimage = "images3/big/4.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[This menu has<br>a lot of options]]>
+  </photo>
+  <photo image="images3/10.jpg" bigimage = "images3/big/5.jpg" target="_blank" lightboxinfo="" url="#">
+    <![CDATA[Test them below]]>
+  </photo>
+  </slideshow>

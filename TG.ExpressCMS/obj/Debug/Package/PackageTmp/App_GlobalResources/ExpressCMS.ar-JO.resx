@@ -1,0 +1,1404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnExit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>اعاده</value>
+  </data>
+  <data name="btnSaveUpdate" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="drNameHeaderinGrid" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="ibtnadd" xml:space="preserve">
+    <value>اضافه</value>
+  </data>
+  <data name="ibtnDelete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="lblAdditionalAttributes" xml:space="preserve">
+    <value>اضافة خصائص</value>
+  </data>
+  <data name="lblCategoryType" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="lblCatPage" xml:space="preserve">
+    <value>ادارة التصنيفات</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="lblDoctorName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="lblGrdTitleCat" xml:space="preserve">
+    <value>التصنيفات</value>
+  </data>
+  <data name="valSummHeader" xml:space="preserve">
+    <value>الرجاء مراجعة الحقول التاليه:</value>
+  </data>
+  <data name="MenuCategory" xml:space="preserve">
+    <value>تصنيف القائمه</value>
+  </data>
+  <data name="NewCategory" xml:space="preserve">
+    <value>تصنيف الاخبار</value>
+  </data>
+  <data name="UnknowErronOccures" xml:space="preserve">
+    <value>حدث خلل عام</value>
+  </data>
+  <data name="FormSubmitFailed" xml:space="preserve">
+    <value>نأسف, لقد حدث خطأ اثناء الارسال يرجى المحاوله لاحقا</value>
+  </data>
+  <data name="SuccessfullySent" xml:space="preserve">
+    <value>شكرا لك, لقد تم ارسال بياناتك وسوف نقوم بالاتصال بك فيما بعد</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="lblCompany" xml:space="preserve">
+    <value>الشركه</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>الدوله</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="lblNotes" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="validEmail" xml:space="preserve">
+    <value>يرجى ادخال عنوان بريدي صحيح</value>
+  </data>
+  <data name="NewsLetterFailedSubscribtion" xml:space="preserve">
+    <value>نعتذر هناك خلل في الخدمه يرجى المحاوله لاحقا</value>
+  </data>
+  <data name="NewsLetterSuccessSubscribtion" xml:space="preserve">
+    <value>شكرا لك لقد تمت عملية تسجيلك بنجاح ستصلك رساله للتاكيد خلال عدة دقائق</value>
+  </data>
+  <data name="ErrContactNotExist" xml:space="preserve">
+    <value>نأسف حدث خطأ اتناء العمليه او ان العنوان غير صحيح</value>
+  </data>
+  <data name="lblMobile" xml:space="preserve">
+    <value>الموبايل</value>
+  </data>
+  <data name="SuccessMessageContactActivated" xml:space="preserve">
+    <value>شكرا لك,لقد تم تفعيل حسابك بنجاح</value>
+  </data>
+  <data name="lblActive" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="lblGroups" xml:space="preserve">
+    <value>المجموعات</value>
+  </data>
+  <data name="lblInActive" xml:space="preserve">
+    <value>غير فعال</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>الحاله</value>
+  </data>
+  <data name="lblZipCode" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>غير فعال</value>
+  </data>
+  <data name="lblContactPage" xml:space="preserve">
+    <value>ادارة الاتصال</value>
+  </data>
+  <data name="lblGrdTitleContact" xml:space="preserve">
+    <value>الافراد</value>
+  </data>
+  <data name="btnAddEditSMTP" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnDNS" xml:space="preserve">
+    <value>التاكد من العنوان</value>
+  </data>
+  <data name="lblEnableSSL" xml:space="preserve">
+    <value>استخدام ارسال آمن</value>
+  </data>
+  <data name="lblHost" xml:space="preserve">
+    <value>عنوان الخادم</value>
+  </data>
+  <data name="lblPort" xml:space="preserve">
+    <value>الملقم</value>
+  </data>
+  <data name="lblSenderName" xml:space="preserve">
+    <value>اسم المرسل</value>
+  </data>
+  <data name="lblSmtpAdmin" xml:space="preserve">
+    <value>ادارة  خوادم ارسال البريد</value>
+  </data>
+  <data name="lbltxtSenderEmail" xml:space="preserve">
+    <value>عنوان المرسل</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="lblUsername" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="lbluserCredential" xml:space="preserve">
+    <value>استخدام الامان</value>
+  </data>
+  <data name="lblDetails" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="lblEmailS" xml:space="preserve">
+    <value>البريد</value>
+  </data>
+  <data name="lblScheduleDate" xml:space="preserve">
+    <value>تاريخ التفعيل</value>
+  </data>
+  <data name="btnSend" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="lblDateSearch" xml:space="preserve">
+    <value>تاريخ الارسال</value>
+  </data>
+  <data name="lblDeliveryStatussearch" xml:space="preserve">
+    <value>حالة التسليم</value>
+  </data>
+  <data name="lblEmailHistory" xml:space="preserve">
+    <value>حالات البريد </value>
+  </data>
+  <data name="lblHistoryQueue" xml:space="preserve">
+    <value>سجلات الارسال</value>
+  </data>
+  <data name="lblReciverEmail" xml:space="preserve">
+    <value>عنوان المستقبل</value>
+  </data>
+  <data name="lblSendingStatus" xml:space="preserve">
+    <value>حالة الارسال</value>
+  </data>
+  <data name="SuccessMessageContactdeActivated" xml:space="preserve">
+    <value>شكرا لك, لقد تم الغاء اشتراكك من مراسلاتنا الالكترونيه</value>
+  </data>
+  <data name="ConfirmationmsgSubject" xml:space="preserve">
+    <value>الرجاء تأكيد اشتراكك</value>
+  </data>
+  <data name="SuccessSubject" xml:space="preserve">
+    <value>اهلا بك في عالم مراسلاتنا الالكترونيه</value>
+  </data>
+  <data name="lblRSSChannels" xml:space="preserve">
+    <value>أخر الاخبار</value>
+  </data>
+  <data name="rssdesc" xml:space="preserve">
+    <value>اهلا بك الى اخر اخبار </value>
+  </data>
+  <data name="lblAddComment" xml:space="preserve">
+    <value>اضف تعليق</value>
+  </data>
+  <data name="CommentAddedSuccess" xml:space="preserve">
+    <value>لقد تم اضافة التعليق بنجاح وسيتم نشره يعد مراجعته</value>
+  </data>
+  <data name="External" xml:space="preserve">
+    <value>خارجي</value>
+  </data>
+  <data name="Internal" xml:space="preserve">
+    <value>داخلي</value>
+  </data>
+  <data name="lblGrdTitleEmail" xml:space="preserve">
+    <value>الجرائد الالكترونيه</value>
+  </data>
+  <data name="lblEmailSender" xml:space="preserve">
+    <value>التحكم بالارسال</value>
+  </data>
+  <data name="SuccessComments" xml:space="preserve">
+    <value>شكرا لك, سيتم نشر تعليقك بعد ان تتم مراجعته</value>
+  </data>
+  <data name="lblCommentPage" xml:space="preserve">
+    <value>مراجعة التعليقات</value>
+  </data>
+  <data name="lblComments" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="lblGrdTitleComment" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="lblIPAddress" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="lblModifiedDetails" xml:space="preserve">
+    <value>التعليق بعد المراجعة</value>
+  </data>
+  <data name="lblContactUS" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="lblInQuireisManager" xml:space="preserve">
+    <value>ادارة طلبات الاتصال</value>
+  </data>
+  <data name="NormalUser" xml:space="preserve">
+    <value>متسخدم عادي</value>
+  </data>
+  <data name="SuperAdmin" xml:space="preserve">
+    <value>المدير الاعلى</value>
+  </data>
+  <data name="Delivered" xml:space="preserve">
+    <value>تم تسليمه</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>فشل الارسال</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>غير معلوم</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>المعرض</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>أرسلت</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>صوره</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>مرئيات</value>
+  </data>
+  <data name="JobID" xml:space="preserve">
+    <value>العمل</value>
+  </data>
+  <data name="lblCV" xml:space="preserve">
+    <value>ملف السيره الذاتيه</value>
+  </data>
+  <data name="lblCVText" xml:space="preserve">
+    <value>السيره الذاتيه</value>
+  </data>
+  <data name="lblEducation" xml:space="preserve">
+    <value>التعليم</value>
+  </data>
+  <data name="lblExperiences" xml:space="preserve">
+    <value>الخبرات</value>
+  </data>
+  <data name="lblFullName" xml:space="preserve">
+    <value>الاسم الكامل</value>
+  </data>
+  <data name="lblImage" xml:space="preserve">
+    <value>الصوره</value>
+  </data>
+  <data name="lblJobtitle" xml:space="preserve">
+    <value>المسمى الوظيفي</value>
+  </data>
+  <data name="lblApplytoCareer" xml:space="preserve">
+    <value>التقدم الى وظيفه</value>
+  </data>
+  <data name="YourAppHadbeenrecievedsuccessfully" xml:space="preserve">
+    <value>شكرا لك لقد تم استلام طلبك بنجاح</value>
+  </data>
+  <data name="lblMenuResult" xml:space="preserve">
+    <value>نتائج البحث في القوائم</value>
+  </data>
+  <data name="lblNewsResult" xml:space="preserve">
+    <value>نتائج البحث في الاخبار</value>
+  </data>
+  <data name="Noresultformenus" xml:space="preserve">
+    <value>لا يوجد نتائج للقوائم</value>
+  </data>
+  <data name="Noresultfornews" xml:space="preserve">
+    <value>لا يوجد نتائج للاخبار</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="ibtnClose" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="PollSubmitted" xml:space="preserve">
+    <value>شكرا لك لقد تمت عملية التصويت بنجاح</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>صوت</value>
+  </data>
+  <data name="lblFatawaPage" xml:space="preserve">
+    <value>طلب فتوى</value>
+  </data>
+  <data name="YourFatwaHadbeenSend" xml:space="preserve">
+    <value>شكرا لك, لقد تم ارسال طلب الفتوى وسيتم الاجابه عنها باقرب وقت</value>
+  </data>
+  <data name="btnSend1" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="lblAnswer" xml:space="preserve">
+    <value>اجابة الفتوى</value>
+  </data>
+  <data name="lblGrdTitleFatawa" xml:space="preserve">
+    <value>الفتاوى</value>
+  </data>
+  <data name="lblQuestion" xml:space="preserve">
+    <value>السؤال</value>
+  </data>
+  <data name="lblRequestFatwa" xml:space="preserve">
+    <value>طلب فتوى</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="lblSawtyyatHeader" xml:space="preserve">
+    <value>القسم الاعلامي</value>
+  </data>
+  <data name="lblSawtyyaTitle" xml:space="preserve">
+    <value>الصوتيات والمرئيات</value>
+  </data>
+  <data name="AddThread" xml:space="preserve">
+    <value>اضافة موضوع</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="lblType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ThreadTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="TotalThreads" xml:space="preserve">
+    <value>عدد المشاركات</value>
+  </data>
+  <data name="TotalThreads1" xml:space="preserve">
+    <value>Total Threads</value>
+  </data>
+  <data name="Active1" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="btnAddEditSMTP1" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnDNS1" xml:space="preserve">
+    <value>التاكد من العنوان</value>
+  </data>
+  <data name="btnExit1" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="btnReset1" xml:space="preserve">
+    <value>اعاده</value>
+  </data>
+  <data name="btnSaveUpdate1" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnSearch1" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="btnSend2" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="btnSubmit1" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="btnUpdate1" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="CommentAddedSuccess1" xml:space="preserve">
+    <value>لقد تم اضافة التعليق بنجاح وسيتم نشره يعد مراجعته</value>
+  </data>
+  <data name="ConfirmationmsgSubject1" xml:space="preserve">
+    <value>الرجاء تأكيد اشتراكك</value>
+  </data>
+  <data name="Delivered1" xml:space="preserve">
+    <value>تم تسليمه</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>المحتوى</value>
+  </data>
+  <data name="Document1" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="drNameHeaderinGrid1" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="ErrContactNotExist1" xml:space="preserve">
+    <value>نأسف حدث خطأ اتناء العمليه او ان العنوان غير صحيح</value>
+  </data>
+  <data name="External1" xml:space="preserve">
+    <value>خارجي</value>
+  </data>
+  <data name="Failed1" xml:space="preserve">
+    <value>فشل الارسال</value>
+  </data>
+  <data name="FormSubmitFailed1" xml:space="preserve">
+    <value>نأسف, لقد حدث خطأ اثناء الارسال يرجى المحاوله لاحقا</value>
+  </data>
+  <data name="Forum" xml:space="preserve">
+    <value>المنتدى</value>
+  </data>
+  <data name="ForumGroup" xml:space="preserve">
+    <value>الصنف</value>
+  </data>
+  <data name="ForumManager" xml:space="preserve">
+    <value>إدارة المنتدى</value>
+  </data>
+  <data name="Gallery1" xml:space="preserve">
+    <value>المعرض</value>
+  </data>
+  <data name="ibtnadd1" xml:space="preserve">
+    <value>اضافه</value>
+  </data>
+  <data name="ibtnClose1" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="ibtnDelete1" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Image1" xml:space="preserve">
+    <value>صوره</value>
+  </data>
+  <data name="InActive1" xml:space="preserve">
+    <value>غير فعال</value>
+  </data>
+  <data name="Internal1" xml:space="preserve">
+    <value>داخلي</value>
+  </data>
+  <data name="JobID1" xml:space="preserve">
+    <value>العمل</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="lblActive1" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="lblAddComment1" xml:space="preserve">
+    <value>اضف تعليق</value>
+  </data>
+  <data name="lblAdditionalAttributes1" xml:space="preserve">
+    <value>اضافة خصائص</value>
+  </data>
+  <data name="lblApplytoCareer1" xml:space="preserve">
+    <value>التقدم الى وظيفه</value>
+  </data>
+  <data name="lblCategoryType1" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="lblCatPage1" xml:space="preserve">
+    <value>ادارة التصنيفات</value>
+  </data>
+  <data name="lblCommentPage1" xml:space="preserve">
+    <value>مراجعة التعليقات</value>
+  </data>
+  <data name="lblComments1" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="lblCompany1" xml:space="preserve">
+    <value>الشركه</value>
+  </data>
+  <data name="lblContactPage1" xml:space="preserve">
+    <value>ادارة الاتصال</value>
+  </data>
+  <data name="lblContactUS1" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="lblCountry1" xml:space="preserve">
+    <value>الدوله</value>
+  </data>
+  <data name="lblCV1" xml:space="preserve">
+    <value>ملف السيره الذاتيه</value>
+  </data>
+  <data name="lblCVText1" xml:space="preserve">
+    <value>السيره الذاتيه</value>
+  </data>
+  <data name="lblDateSearch1" xml:space="preserve">
+    <value>تاريخ الارسال</value>
+  </data>
+  <data name="lblDeliveryStatussearch1" xml:space="preserve">
+    <value>حالة التسليم</value>
+  </data>
+  <data name="lblDescription1" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="lblDetails1" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="lblDoctorName1" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="lblEducation1" xml:space="preserve">
+    <value>التعليم</value>
+  </data>
+  <data name="lblEmail1" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="lblEmailHistory1" xml:space="preserve">
+    <value>حالات البريد </value>
+  </data>
+  <data name="lblEmailS1" xml:space="preserve">
+    <value>البريد</value>
+  </data>
+  <data name="lblEmailSender1" xml:space="preserve">
+    <value>التحكم بالارسال</value>
+  </data>
+  <data name="lblEnableSSL1" xml:space="preserve">
+    <value>استخدام ارسال آمن</value>
+  </data>
+  <data name="lblExperiences1" xml:space="preserve">
+    <value>الخبرات</value>
+  </data>
+  <data name="lblFullName1" xml:space="preserve">
+    <value>الاسم الكامل</value>
+  </data>
+  <data name="lblGrdTitleCat1" xml:space="preserve">
+    <value>التصنيفات</value>
+  </data>
+  <data name="lblGrdTitleComment1" xml:space="preserve">
+    <value>التعليقات</value>
+  </data>
+  <data name="lblGrdTitleContact1" xml:space="preserve">
+    <value>الافراد</value>
+  </data>
+  <data name="lblGrdTitleEmail1" xml:space="preserve">
+    <value>الجرائد الالكترونيه</value>
+  </data>
+  <data name="lblGroups1" xml:space="preserve">
+    <value>المجموعات</value>
+  </data>
+  <data name="lblHistoryQueue1" xml:space="preserve">
+    <value>سجلات الارسال</value>
+  </data>
+  <data name="lblHost1" xml:space="preserve">
+    <value>عنوان الخادم</value>
+  </data>
+  <data name="lblImage1" xml:space="preserve">
+    <value>الصوره</value>
+  </data>
+  <data name="lblInActive1" xml:space="preserve">
+    <value>غير فعال</value>
+  </data>
+  <data name="lblInQuireisManager1" xml:space="preserve">
+    <value>ادارة طلبات الاتصال</value>
+  </data>
+  <data name="lblIPAddress1" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="lblJobtitle1" xml:space="preserve">
+    <value>المسمى الوظيفي</value>
+  </data>
+  <data name="lblMenuResult1" xml:space="preserve">
+    <value>نتائج البحث في القوائم</value>
+  </data>
+  <data name="lblMobile1" xml:space="preserve">
+    <value>الموبايل</value>
+  </data>
+  <data name="lblModifiedDetails1" xml:space="preserve">
+    <value>التعليق بعد المراجعة</value>
+  </data>
+  <data name="lblName1" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="lblNewsResult1" xml:space="preserve">
+    <value>نتائج البحث في الاخبار</value>
+  </data>
+  <data name="lblNotes1" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="lblPassword1" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="lblPhone1" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="lblPort1" xml:space="preserve">
+    <value>الملقم</value>
+  </data>
+  <data name="lblReciverEmail1" xml:space="preserve">
+    <value>عنوان المستقبل</value>
+  </data>
+  <data name="lblRSSChannels1" xml:space="preserve">
+    <value>أخر الاخبار</value>
+  </data>
+  <data name="lblScheduleDate1" xml:space="preserve">
+    <value>تاريخ التفعيل</value>
+  </data>
+  <data name="lblSenderName1" xml:space="preserve">
+    <value>اسم المرسل</value>
+  </data>
+  <data name="lblSendingStatus1" xml:space="preserve">
+    <value>حالة الارسال</value>
+  </data>
+  <data name="lblSmtpAdmin1" xml:space="preserve">
+    <value>ادارة  خوادم ارسال البريد</value>
+  </data>
+  <data name="lblStatus1" xml:space="preserve">
+    <value>الحاله</value>
+  </data>
+  <data name="lbltxtSenderEmail1" xml:space="preserve">
+    <value>عنوان المرسل</value>
+  </data>
+  <data name="lbluserCredential1" xml:space="preserve">
+    <value>استخدام الامان</value>
+  </data>
+  <data name="lblUsername1" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="lblZipCode1" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="MenuCategory1" xml:space="preserve">
+    <value>تصنيف القائمه</value>
+  </data>
+  <data name="NewCategory1" xml:space="preserve">
+    <value>تصنيف الاخبار</value>
+  </data>
+  <data name="NewsLetterFailedSubscribtion1" xml:space="preserve">
+    <value>نعتذر هناك خلل في الخدمه يرجى المحاوله لاحقا</value>
+  </data>
+  <data name="NewsLetterSuccessSubscribtion1" xml:space="preserve">
+    <value>شكرا لك لقد تمت عملية تسجيلك بنجاح ستصلك رساله للتاكيد خلال عدة دقائق</value>
+  </data>
+  <data name="Noresultformenus1" xml:space="preserve">
+    <value>لا يوجد نتائج للقوائم</value>
+  </data>
+  <data name="Noresultfornews1" xml:space="preserve">
+    <value>لا يوجد نتائج للاخبار</value>
+  </data>
+  <data name="NormalUser1" xml:space="preserve">
+    <value>متسخدم عادي</value>
+  </data>
+  <data name="PollSubmitted1" xml:space="preserve">
+    <value>شكرا لك لقد تمت عملية التصويت بنجاح</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>الرجوع</value>
+  </data>
+  <data name="rssdesc1" xml:space="preserve">
+    <value>اهلا بك الى اخر اخبار </value>
+  </data>
+  <data name="SavedPostSuccessfully" xml:space="preserve">
+    <value>تمت العملية بنجاح</value>
+  </data>
+  <data name="SavePost" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Sent1" xml:space="preserve">
+    <value>أرسلت</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="SuccessComments1" xml:space="preserve">
+    <value>شكرا لك, سيتم نشر تعليقك بعد ان تتم مراجعته</value>
+  </data>
+  <data name="SuccessfullySent1" xml:space="preserve">
+    <value>شكرا لك, لقد تم ارسال بياناتك وسوف نقوم بالاتصال بك فيما بعد</value>
+  </data>
+  <data name="SuccessMessageContactActivated1" xml:space="preserve">
+    <value>شكرا لك,لقد تم تفعيل حسابك بنجاح</value>
+  </data>
+  <data name="SuccessMessageContactdeActivated1" xml:space="preserve">
+    <value>شكرا لك, لقد تم الغاء اشتراكك من مراسلاتنا الالكترونيه</value>
+  </data>
+  <data name="SuccessSubject1" xml:space="preserve">
+    <value>اهلا بك في عالم مراسلاتنا الالكترونيه</value>
+  </data>
+  <data name="SuperAdmin1" xml:space="preserve">
+    <value>المدير الاعلى</value>
+  </data>
+  <data name="UnknowErronOccures1" xml:space="preserve">
+    <value>حدث خلل عام</value>
+  </data>
+  <data name="Unknown1" xml:space="preserve">
+    <value>غير معلوم</value>
+  </data>
+  <data name="validEmail1" xml:space="preserve">
+    <value>يرجى ادخال عنوان بريدي صحيح</value>
+  </data>
+  <data name="valSummHeader1" xml:space="preserve">
+    <value>الرجاء مراجعة الحقول التاليه:</value>
+  </data>
+  <data name="Video1" xml:space="preserve">
+    <value>مرئيات</value>
+  </data>
+  <data name="Vote1" xml:space="preserve">
+    <value>صوت</value>
+  </data>
+  <data name="YourAppHadbeenrecievedsuccessfully1" xml:space="preserve">
+    <value>شكرا لك لقد تم استلام طلبك بنجاح</value>
+  </data>
+  <data name="lblSearchwatermark" xml:space="preserve">
+    <value>بحث....</value>
+  </data>
+  <data name="btnViewResult" xml:space="preserve">
+    <value>اظهر النتيجه</value>
+  </data>
+  <data name="btnVote" xml:space="preserve">
+    <value>صوت</value>
+  </data>
+  <data name="plzselectanasnwer" xml:space="preserve">
+    <value>الرجاء اختيار الاجابه</value>
+  </data>
+  <data name="PolledBefore" xml:space="preserve">
+    <value>لايمكن التصويت الا لمره واحده</value>
+  </data>
+  <data name="ThnkUVote" xml:space="preserve">
+    <value>شكرا لك لقد تمت عملية التصويت</value>
+  </data>
+  <data name="lblDetailsSearch" xml:space="preserve">
+    <value>التفاصيل .....</value>
+  </data>
+  <data name="Audio" xml:space="preserve">
+    <value>الصوتيات</value>
+  </data>
+  <data name="lblCountrywm" xml:space="preserve">
+    <value>الدولة...</value>
+  </data>
+  <data name="lblEmailwm" xml:space="preserve">
+    <value>البريد الالكتروني...</value>
+  </data>
+  <data name="lblNamewm" xml:space="preserve">
+    <value>الاسم...</value>
+  </data>
+  <data name="lblNoteswm" xml:space="preserve">
+    <value>الرسالة...</value>
+  </data>
+  <data name="lblPhonewm" xml:space="preserve">
+    <value>الهاتف...</value>
+  </data>
+  <data name="lblRegisterNewsletter" xml:space="preserve">
+    <value>سجل معنا</value>
+  </data>
+  <data name="lblSurNamewm" xml:space="preserve">
+    <value>اسم العائله...</value>
+  </data>
+  <data name="hypRegister" xml:space="preserve">
+    <value>مستخدم جديد؟سجل الآن!</value>
+  </data>
+  <data name="lblLogin" xml:space="preserve">
+    <value>دخول</value>
+  </data>
+  <data name="lblLoginTitle" xml:space="preserve">
+    <value>تسجيل الدخول الى الموقع</value>
+  </data>
+  <data name="Fatawa" xml:space="preserve">
+    <value>تصنيفات الفتاوى</value>
+  </data>
+  <data name="IslamicStudies" xml:space="preserve">
+    <value>تصنيفات الدراسات الاسلاميه</value>
+  </data>
+  <data name="Sawtyyat" xml:space="preserve">
+    <value>الصوتيات</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>المرئيات</value>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>التصنيف</value>
+  </data>
+  <data name="nofilesfound" xml:space="preserve">
+    <value>لايوجد ملفات</value>
+  </data>
+  <data name="Banner" xml:space="preserve">
+    <value>اعلان</value>
+  </data>
+  <data name="ClicksBased" xml:space="preserve">
+    <value>ظهور حسب الطلب</value>
+  </data>
+  <data name="StaticBased" xml:space="preserve">
+    <value>ظهور دائم</value>
+  </data>
+  <data name="ViewsBased" xml:space="preserve">
+    <value>ظهور فقط</value>
+  </data>
+  <data name="UserAlreadyDefined" xml:space="preserve">
+    <value>المستخدم معرف مسبقا</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>لم يتم الاجابه عنها</value>
+  </data>
+  <data name="Resolved" xml:space="preserve">
+    <value>تمت الاجابه عنها</value>
+  </data>
+  <data name="lblFatawa" xml:space="preserve">
+    <value>نتائج البحث في الفتاوى</value>
+  </data>
+  <data name="NofatawaFound" xml:space="preserve">
+    <value>لم يتم الحصول على نتائج بالفتاوى</value>
+  </data>
+  <data name="lblAudVid" xml:space="preserve">
+    <value>الصوتيات والمرئيات</value>
+  </data>
+  <data name="NoresultforAudiosVideos" xml:space="preserve">
+    <value>لايوجد نتائج للصوتيات والمرئيات</value>
+  </data>
+  <data name="lblAudVidDetails" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>اضغط هنا</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>لم يتم التعرف على العنوان البريدي</value>
+  </data>
+  <data name="ContactActivated" xml:space="preserve">
+    <value>تم تفعيل حسابك بنجاح</value>
+  </data>
+  <data name="hyoForgetPassword" xml:space="preserve">
+    <value>نسيت كلمة السر؟</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="YourNewPassword" xml:space="preserve">
+    <value>كلمة السر الجديده هي:</value>
+  </data>
+  <data name="YourPasswordHadSentSuccess" xml:space="preserve">
+    <value>لقد تم ارسال كلمة السر الخاصه بك الى بريدك الالكتروني</value>
+  </data>
+  <data name="lblReply" xml:space="preserve">
+    <value>الرد</value>
+  </data>
+  <data name="YourReplyhadbeenQueued" xml:space="preserve">
+    <value>تم اضافة الرد بنجاح</value>
+  </data>
+  <data name="TextOnly" xml:space="preserve">
+    <value>نص فقط</value>
+  </data>
+  <data name="btnStart" xml:space="preserve">
+    <value>إبدأ</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>حسابات الشركات</value>
+  </data>
+  <data name="EmployeeHavingRelation" xml:space="preserve">
+    <value>حساب موظف ذو صله</value>
+  </data>
+  <data name="Firstly" xml:space="preserve">
+    <value>الخطوة الاولى</value>
+  </data>
+  <data name="Individuals" xml:space="preserve">
+    <value>حساب الافراد</value>
+  </data>
+  <data name="JointAccount" xml:space="preserve">
+    <value>الحسابات المشتركه</value>
+  </data>
+  <data name="lblAccountType" xml:space="preserve">
+    <value>نوع الحساب</value>
+  </data>
+  <data name="lblFirlst" xml:space="preserve">
+    <value>الخطوة الاولى</value>
+  </data>
+  <data name="lblMrMrs" xml:space="preserve">
+    <value>السيد\السادة:</value>
+  </data>
+  <data name="lblNumberinABDSE" xml:space="preserve">
+    <value>رقم المستثمر في سوق ابوظبي للأوراق المالية</value>
+  </data>
+  <data name="lblNumberInDubai" xml:space="preserve">
+    <value>رقم المستثمر في سوق دبي المالي</value>
+  </data>
+  <data name="lblPleaseFillbelow" xml:space="preserve">
+    <value>يرجى تعبئة البيانات التاليه</value>
+  </data>
+  <data name="ProxyTrustee" xml:space="preserve">
+    <value>حساب الوكاله\الوصايه</value>
+  </data>
+  <data name="Secondly" xml:space="preserve">
+    <value>ثانيا</value>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="lblAccording" xml:space="preserve">
+    <value>وفقا للتفصيل التالي</value>
+  </data>
+  <data name="lblbdate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="lblEmpolymentNumber" xml:space="preserve">
+    <value>الرقم الوظيفي</value>
+  </data>
+  <data name="lblIndividual" xml:space="preserve">
+    <value>حساب الافراد</value>
+  </data>
+  <data name="lblNationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="lblPassportNumber" xml:space="preserve">
+    <value>جواز سفر رقم</value>
+  </data>
+  <data name="lblPOBox" xml:space="preserve">
+    <value>صندوق بريد</value>
+  </data>
+  <data name="lblProfession" xml:space="preserve">
+    <value>المهنة</value>
+  </data>
+  <data name="lblResidencePlace" xml:space="preserve">
+    <value>مكان الاقامه</value>
+  </data>
+  <data name="lblWork" xml:space="preserve">
+    <value>جهة العمل</value>
+  </data>
+  <data name="lblWorksAdd" xml:space="preserve">
+    <value>عنوان العمل</value>
+  </data>
+  <data name="adsm" xml:space="preserve">
+    <value>ادارة سوق ابوظبي للاوراق الماليه</value>
+  </data>
+  <data name="bc" xml:space="preserve">
+    <value>صفة الشركه</value>
+  </data>
+  <data name="btnFinish" xml:space="preserve">
+    <value>اتمام عملية التسحيل</value>
+  </data>
+  <data name="dfm" xml:space="preserve">
+    <value>ادارة سوق دبي</value>
+  </data>
+  <data name="lblAccountOwnerName" xml:space="preserve">
+    <value>اسم مالك الحساب</value>
+  </data>
+  <data name="lblADCCMemberNumber" xml:space="preserve">
+    <value>رقم عضوية الغرفه</value>
+  </data>
+  <data name="lblCapacity" xml:space="preserve">
+    <value>صفته</value>
+  </data>
+  <data name="lblComAddress" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="lblComapnyOwnerName" xml:space="preserve">
+    <value>اسم مالك الشركة</value>
+  </data>
+  <data name="lblComBDate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="lblComEmail" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="lblComFax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="lblComNationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="lblCompanies" xml:space="preserve">
+    <value>حساب الشركات</value>
+  </data>
+  <data name="lblCompanyPhone" xml:space="preserve">
+    <value>هاتف</value>
+  </data>
+  <data name="lblComPassport" xml:space="preserve">
+    <value>رقم الجواز</value>
+  </data>
+  <data name="lblComPOBox" xml:space="preserve">
+    <value>ص.ب</value>
+  </data>
+  <data name="lblDateofExpiry" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="lblIssueDate" xml:space="preserve">
+    <value>تاريخ الاصدار</value>
+  </data>
+  <data name="lblJointAccount" xml:space="preserve">
+    <value>الحسابات المشتركه</value>
+  </data>
+  <data name="lblJointAccountHolder" xml:space="preserve">
+    <value>اصحاب الحساب</value>
+  </data>
+  <data name="lblJointAddress" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="lblJointAuthorizedmanageccount" xml:space="preserve">
+    <value>المخول بادارةالحساب</value>
+  </data>
+  <data name="lblJointDate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="lblJointEmploymentNumber" xml:space="preserve">
+    <value>الرقم الوظيفي</value>
+  </data>
+  <data name="lblJointMobile" xml:space="preserve">
+    <value>جوال</value>
+  </data>
+  <data name="lblJointNationality" xml:space="preserve">
+    <value>الجنسيه</value>
+  </data>
+  <data name="lblJointPassportNumber" xml:space="preserve">
+    <value>رقم الجواز</value>
+  </data>
+  <data name="lblJointPhone" xml:space="preserve">
+    <value>هاتف</value>
+  </data>
+  <data name="lblJointPOBox" xml:space="preserve">
+    <value>ص.ب</value>
+  </data>
+  <data name="lblJointProffession" xml:space="preserve">
+    <value>المهنة</value>
+  </data>
+  <data name="lblJointResidencePlace" xml:space="preserve">
+    <value>مكان الاقامة</value>
+  </data>
+  <data name="lblJointworksAdd" xml:space="preserve">
+    <value>مكان العمل</value>
+  </data>
+  <data name="lblLegalForm" xml:space="preserve">
+    <value>الشكل القانوني</value>
+  </data>
+  <data name="lblNationalityCompany" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="lblPleaseCheckBelow" xml:space="preserve">
+    <value>يرجى تعبئة الجزء الملائم لطبيعة عملك</value>
+  </data>
+  <data name="lblpproxeeTrusteeNationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="lblPrAddress" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="lblPrDob" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="lblPrEmail" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="lblPrEmploymentnumber" xml:space="preserve">
+    <value>الرقم الوظيفي</value>
+  </data>
+  <data name="lblPrissueDate" xml:space="preserve">
+    <value>تاريخ الاصدار</value>
+  </data>
+  <data name="lblPrMobile" xml:space="preserve">
+    <value>الجوال</value>
+  </data>
+  <data name="lblProxyName" xml:space="preserve">
+    <value>اسم الوكيل \الوصي</value>
+  </data>
+  <data name="lblProxyNumber" xml:space="preserve">
+    <value>رقم الوكالة</value>
+  </data>
+  <data name="lblProxyTrustee" xml:space="preserve">
+    <value>حسابات الوكالة\الوصي</value>
+  </data>
+  <data name="lblPrPassportNumber" xml:space="preserve">
+    <value>رقم الجواز</value>
+  </data>
+  <data name="lblPrPhone" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="lblPrPlaceAddress" xml:space="preserve">
+    <value>مكان الاصدار</value>
+  </data>
+  <data name="lblPrPOBox" xml:space="preserve">
+    <value>ص.ب</value>
+  </data>
+  <data name="lblPrProfession" xml:space="preserve">
+    <value>المهنة</value>
+  </data>
+  <data name="lblPrWorksAt" xml:space="preserve">
+    <value>مكان العمل</value>
+  </data>
+  <data name="lblreAccount" xml:space="preserve">
+    <value>حساب موظف ذو صلة</value>
+  </data>
+  <data name="lblRepresentedBy" xml:space="preserve">
+    <value>يمثله</value>
+  </data>
+  <data name="lblResidenceAddress" xml:space="preserve">
+    <value>عنوان الاقامة</value>
+  </data>
+  <data name="lblSigauthorities" xml:space="preserve">
+    <value>اسم المخول بالتوقيع</value>
+  </data>
+  <data name="lblTradeExpiryDate" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="lblTradeIssueDate" xml:space="preserve">
+    <value>تاريخ الاصدار</value>
+  </data>
+  <data name="lblTradeName" xml:space="preserve">
+    <value>الاسم التجاري</value>
+  </data>
+  <data name="lblTradeNumber" xml:space="preserve">
+    <value>رقم الرخصة التجارية</value>
+  </data>
+  <data name="lblTypeBranch" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="osc" xml:space="preserve">
+    <value>احدى الشركات المساهمه</value>
+  </data>
+  <data name="ThanksyourApplicationsRecivedandwill" xml:space="preserve">
+    <value>شكرا لك لقد تمت عملية التسجيل بنجاح وسيتم الاتصال بك قريبا لتفعيل حسابك</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="TheTextContainsUnsuitableContent" xml:space="preserve">
+    <value>كلمة غير لائقة</value>
+  </data>
+  <data name="UnsuitableWord" xml:space="preserve">
+    <value>كلمة غير لائقة</value>
+  </data>
+  <data name="AddPost" xml:space="preserve">
+    <value>اضافة رد</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="lblAccountName" xml:space="preserve">
+    <value>اسم الحساب</value>
+  </data>
+  <data name="lblAccountNumber" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="lblAccountOpeningForm" xml:space="preserve">
+    <value>طلب فتح الحساب</value>
+  </data>
+  <data name="lblAllPapers" xml:space="preserve">
+    <value>اخرى ( دمج جميع الأوراق)</value>
+  </data>
+  <data name="lblAuthirzedManagerSignator" xml:space="preserve">
+    <value>اسم  المخول بالتوقيع ( الوكيل)</value>
+  </data>
+  <data name="lblBank" xml:space="preserve">
+    <value>اسم البنك</value>
+  </data>
+  <data name="lblBankAccountInformation" xml:space="preserve">
+    <value>معلومات الحساب البنكي</value>
+  </data>
+  <data name="lblBoD" xml:space="preserve">
+    <value>تاريخ الولادة</value>
+  </data>
+  <data name="lblBranch" xml:space="preserve">
+    <value>فرع البنك</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="lblExpectedRateofReveune" xml:space="preserve">
+    <value>ما هو العائد المتوقع من الإستثمار في الأوراق المالية؟</value>
+  </data>
+  <data name="lblFamilyBook" xml:space="preserve">
+    <value>خلاصة القيد</value>
+  </data>
+  <data name="lblFamilyBookNumber" xml:space="preserve">
+    <value>رقم خلاصة القيد</value>
+  </data>
+  <data name="lblFax" xml:space="preserve">
+    <value>فاكس</value>
+  </data>
+  <data name="lblGender" xml:space="preserve">
+    <value>الجنس</value>
+  </data>
+  <data name="lblHomePhone" xml:space="preserve">
+    <value>رقم هاتف المنزل</value>
+  </data>
+  <data name="lblHowDescriptyouKnowledge" xml:space="preserve">
+    <value>كيف تصفون خبرتكم وإلمامكم في مجال الإستثمار؟</value>
+  </data>
+  <data name="lblHowDouHearAboutAlRamz" xml:space="preserve">
+    <value>كيف سمعت عن الوسيط الرمز للأوراق المالية  ذ م م؟</value>
+  </data>
+  <data name="lblIdentity" xml:space="preserve">
+    <value>الهوية</value>
+  </data>
+  <data name="lblInCaseofGuardian" xml:space="preserve">
+    <value>في حال وجود وكيل مفوض أو وصي / ولي بمثل صاحب الحساب</value>
+  </data>
+  <data name="lblInvestmentStrategy" xml:space="preserve">
+    <value>ما هي استراتيجية الإستثمار؟</value>
+  </data>
+  <data name="lbllegaldocs" xml:space="preserve">
+    <value>الوثائق القانونية – الخطوة الثانية</value>
+  </data>
+  <data name="lbllegalInformation" xml:space="preserve">
+    <value>المعلومات القانونية</value>
+  </data>
+  <data name="lblMaterialStatus" xml:space="preserve">
+    <value>الحالة الإجتماعية</value>
+  </data>
+  <data name="lblOfficePhone" xml:space="preserve">
+    <value>رقم هاتف العمل</value>
+  </data>
+  <data name="lblPassport" xml:space="preserve">
+    <value>جواز السفر</value>
+  </data>
+  <data name="lblPleaseGivePersonalAccountInfo" xml:space="preserve">
+    <value>يرجى تقديم معلومات حسابك المصرفي بالنسبة للمعاملات النقدية</value>
+  </data>
+  <data name="lblPowerofAttornary" xml:space="preserve">
+    <value>الوكالة</value>
+  </data>
+  <data name="lblPurposeBehindInvestment" xml:space="preserve">
+    <value>ما هو الهدف من الإستثمار في الأوراق المالية؟</value>
+  </data>
+  <data name="lblStep3" xml:space="preserve">
+    <value>البيانات البنكية- الخطوة الثالثة</value>
+  </data>
+  <data name="lblStep6" xml:space="preserve">
+    <value>رفع صور عن المستندات</value>
+  </data>
+  <data name="lblTotalInvProf" xml:space="preserve">
+    <value>ما هي قيمة المبالغ المخصصة للإستثمار في الأوراق المالية؟</value>
+  </data>
+  <data name="lblTotalYearlyIncome" xml:space="preserve">
+    <value>معدل الدخل السنوي</value>
+  </data>
+  <data name="lblUploadControl" xml:space="preserve">
+    <value>منطقة رفع الملفات</value>
+  </data>
+  <data name="lbRiskDesgree" xml:space="preserve">
+    <value>ما هي درجة المخاطرة الممكن تحملها؟</value>
+  </data>
+  <data name="loginButton" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>اوافق على الاحكام والشروط المذكورة اعلاه</value>
+  </data>
+  <data name="lblRegistration" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="btnback" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="lblReqiured" xml:space="preserve">
+    <value>معلومات مطلوبة</value>
+  </data>
+  <data name="AddedSuccess" xml:space="preserve">
+    <value>تمت العملية بنجاح</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>هل نسيت كلمة السر؟</value>
+  </data>
+  <data name="UsernameOrPasswordIsWrong" xml:space="preserve">
+    <value>كلمة السر او اسم الممستخدم غير صحيح</value>
+  </data>
+  <data name="YouHadbeenRegisteredSuccessfully" xml:space="preserve">
+    <value>شكرا لك لقد تم تسجيلك في دوريتنا وستصلك تباعا</value>
+  </data>
+  <data name="YouEmailAlreadyregistered" xml:space="preserve">
+    <value>ان بريدك الالكتروني مسجل مسبقا لدينا</value>
+  </data>
+</root>

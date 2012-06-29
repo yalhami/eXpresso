@@ -1,0 +1,81 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserSide.master.cs" Inherits="TG.ExpressCMS.UserPages.UserSide" %>
+
+<%@ Register Src="../UI/News/NewsViewer_UC.ascx" TagName="NewsViewer_UC" TagPrefix="uc16" %>
+<%@ Register Src="../UI/Html/HtmlViewer_UC.ascx" TagName="HtmlViewer_UC" TagPrefix="uc17" %>
+<%@ Register Src="~/UI/Search/Search_UC.ascx" TagName="Search_UC" TagPrefix="uc98" %>
+<%@ Register Src="../UI/Categories/CategoryViewer_UC.ascx" TagName="CategoryViewer_UC"
+    TagPrefix="uc190" %>
+<%@ Register Src="~/UI/Menus/MenuViewerXsl_UC.ascx" TagName="MenuViewerXsl_UC" TagPrefix="uc113" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <title>
+        <%=GetPageTitle()%>
+    </title>
+    <link href="../UI/CSS/CSSFiles/DrNouh1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js"></script>
+    <link href="../UI/CSS/CSSFiles/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../../js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="fb-root">
+    </div>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scmgr" runat="server" EnablePageMethods="true" LoadScriptsBeforeUI="true"
+        EnablePartialRendering="true" EnableScriptGlobalization="true" EnableScriptLocalization="true"
+        ScriptMode="Release">
+        <CompositeScript>
+            <Scripts>
+                <asp:ScriptReference Path="~/JS/AjaxLoader.js" />
+                <asp:ScriptReference Path="~/JS/Forum.js" />
+                <asp:ScriptReference Path="~/JS/Event.js" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+    <center>
+        <div class="header">
+            <div class="hdr-div">
+                <div class="logo">
+                    <a href="default.aspx"></a>
+                </div>
+                <div class="menu">
+                    <uc113:MenuViewerXsl_UC runat="server" CategoryID="13" XslID="1" ID="menuViewerHeader" />
+                </div>
+            </div>
+        </div>
+        <div class="sub-feature">
+        </div>
+        <div class="dv-content-all">
+            <div class="content-dv">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="subusful">
+                <div class="usful-links">
+                    <uc16:NewsViewer_UC XSLID="25" CategoryID="45" runat="server" ShowPager="false" ID="latestnews"
+                        Count="1" />
+                    <uc190:CategoryViewer_UC Count="1" XSLID="28" Type="4" ID="CategoryViewer_UC1" runat="server"
+                        ShowPager="false" />
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="ftr">
+                <uc17:HtmlViewer_UC runat="server" HashName="copyright" />
+                <uc113:MenuViewerXsl_UC runat="server" CategoryID="13" XslID="1" ID="menuViewerftr" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
