@@ -2,7 +2,7 @@
     var dvEventloading = document.getElementById(dvEventloadingClientID);
     dvEventloading.style.display = "block";
 
-    var callWebService = new TGExpressCMSServices.EventWebService();
+    var callWebService = new TGExpressCMSService s.EventWebService();
     callWebService.GetHtmlEventItems(yselect, mselect, dselect, CategoryID, updateEventData, updateEventError, dvEventloadingClientID + "|" + pnlEventDataClientID);
 
     var dvEvent = document.getElementById(pnlEventDataClientID);
